@@ -39,3 +39,4 @@ Thumbs.db
 public/build/
 public/intermediate/
 public/publish
+public/scss/.sass-cache
