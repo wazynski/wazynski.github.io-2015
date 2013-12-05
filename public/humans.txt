@@ -1,0 +1,36 @@
+/* TEAM */
+
+	Lead Design & Developer: Tom Skarbek-Wazynski
+	Contact: tom [at] singlemaltdesign.co.uk
+	Twitter: @wazynski
+	From: Lancaster, UK
+	
+/* THANKS */
+
+	For Knowledge: Paul Irish, Jeffery Zeldman, Ethan Marcotte,
+				   Jermery Keith, Dan Cederholm, Luke Wroblewski
+
+
+/* SINGLE MALTS DRANK TO CELEBRATE MILESTONES */
+
+	Glenrothes Select Reserve
+	
+	
+/* SITE */
+	
+	Version: 1.0.0
+	Language: English
+	Doctype: HTML5
+	Twitter: @WeAreSingleMalt
+                                              
+
+	
+	 •••••   •••  •••   ••   •••••   •••     •••••••    ••••   ••••    •••    •••   ••••••••••
+	••  •••  •••  •••   ••  •••  ••  •••     •••        ••••   ••••    •••    •••      ••• 
+	•••  ••  •••  ••••  ••  •••  ••  •••     •••        ••••• •••••   •••••   •••      •••   
+	 •••     •••  ••••  ••  •••      •••     •••        ••••• •••••   •• ••   •••      •••   
+	  •••    •••  •• •• ••  ••• •••  •••     •••••      •••••••••••  ••   ••  •••      •••   
+	   •••   •••  ••  ••••  ••• •••  •••     •••        ••• ••• •••  ••   ••  •••      •••   
+	••  •••  •••  ••  ••••  •••  ••  •••     •••        ••• ••• •••  •••••••  •••      •••   
+	••   ••  •••  ••   •••  •••  ••  •••     •••        ••• ••• •••  ••   ••  •••      •••   
+	 •••••   •••  ••    ••  ••••••   ••••••• •••••••    ••• ••• •••  ••   ••  •••••••  •••
