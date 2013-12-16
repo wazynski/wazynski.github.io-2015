@@ -395,8 +395,8 @@ hr {
 
 /* line 74, ../scss/_bootstrap.scss */
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -8px;
+  margin-right: -8px;
 }
 
 /* line 79, ../scss/_bootstrap.scss */
@@ -417,1065 +417,1064 @@ hr {
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background: lightblue;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
-/* line 97, ../scss/_bootstrap.scss */
+/* line 96, ../scss/_bootstrap.scss */
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11 {
   float: left;
 }
 
-/* line 100, ../scss/_bootstrap.scss */
+/* line 99, ../scss/_bootstrap.scss */
 .col-xs-12 {
   width: 100%;
 }
 
-/* line 103, ../scss/_bootstrap.scss */
+/* line 102, ../scss/_bootstrap.scss */
 .col-xs-11 {
   width: 91.66666666666666%;
 }
 
-/* line 106, ../scss/_bootstrap.scss */
+/* line 105, ../scss/_bootstrap.scss */
 .col-xs-10 {
   width: 83.33333333333334%;
 }
 
-/* line 109, ../scss/_bootstrap.scss */
+/* line 108, ../scss/_bootstrap.scss */
 .col-xs-9 {
   width: 75%;
 }
 
-/* line 112, ../scss/_bootstrap.scss */
+/* line 111, ../scss/_bootstrap.scss */
 .col-xs-8 {
   width: 66.66666666666666%;
 }
 
-/* line 115, ../scss/_bootstrap.scss */
+/* line 114, ../scss/_bootstrap.scss */
 .col-xs-7 {
   width: 58.333333333333336%;
 }
 
-/* line 118, ../scss/_bootstrap.scss */
+/* line 117, ../scss/_bootstrap.scss */
 .col-xs-6 {
   width: 50%;
 }
 
-/* line 121, ../scss/_bootstrap.scss */
+/* line 120, ../scss/_bootstrap.scss */
 .col-xs-5 {
   width: 41.66666666666667%;
 }
 
-/* line 124, ../scss/_bootstrap.scss */
+/* line 123, ../scss/_bootstrap.scss */
 .col-xs-4 {
   width: 33.33333333333333%;
 }
 
-/* line 127, ../scss/_bootstrap.scss */
+/* line 126, ../scss/_bootstrap.scss */
 .col-xs-3 {
   width: 25%;
 }
 
-/* line 130, ../scss/_bootstrap.scss */
+/* line 129, ../scss/_bootstrap.scss */
 .col-xs-2 {
   width: 16.666666666666664%;
 }
 
-/* line 133, ../scss/_bootstrap.scss */
+/* line 132, ../scss/_bootstrap.scss */
 .col-xs-1 {
   width: 8.333333333333332%;
 }
 
-/* line 136, ../scss/_bootstrap.scss */
+/* line 135, ../scss/_bootstrap.scss */
 .col-xs-pull-12 {
   right: 100%;
 }
 
-/* line 139, ../scss/_bootstrap.scss */
+/* line 138, ../scss/_bootstrap.scss */
 .col-xs-pull-11 {
   right: 91.66666666666666%;
 }
 
-/* line 142, ../scss/_bootstrap.scss */
+/* line 141, ../scss/_bootstrap.scss */
 .col-xs-pull-10 {
   right: 83.33333333333334%;
 }
 
-/* line 145, ../scss/_bootstrap.scss */
+/* line 144, ../scss/_bootstrap.scss */
 .col-xs-pull-9 {
   right: 75%;
 }
 
-/* line 148, ../scss/_bootstrap.scss */
+/* line 147, ../scss/_bootstrap.scss */
 .col-xs-pull-8 {
   right: 66.66666666666666%;
 }
 
-/* line 151, ../scss/_bootstrap.scss */
+/* line 150, ../scss/_bootstrap.scss */
 .col-xs-pull-7 {
   right: 58.333333333333336%;
 }
 
-/* line 154, ../scss/_bootstrap.scss */
+/* line 153, ../scss/_bootstrap.scss */
 .col-xs-pull-6 {
   right: 50%;
 }
 
-/* line 157, ../scss/_bootstrap.scss */
+/* line 156, ../scss/_bootstrap.scss */
 .col-xs-pull-5 {
   right: 41.66666666666667%;
 }
 
-/* line 160, ../scss/_bootstrap.scss */
+/* line 159, ../scss/_bootstrap.scss */
 .col-xs-pull-4 {
   right: 33.33333333333333%;
 }
 
-/* line 163, ../scss/_bootstrap.scss */
+/* line 162, ../scss/_bootstrap.scss */
 .col-xs-pull-3 {
   right: 25%;
 }
 
-/* line 166, ../scss/_bootstrap.scss */
+/* line 165, ../scss/_bootstrap.scss */
 .col-xs-pull-2 {
   right: 16.666666666666664%;
 }
 
-/* line 169, ../scss/_bootstrap.scss */
+/* line 168, ../scss/_bootstrap.scss */
 .col-xs-pull-1 {
   right: 8.333333333333332%;
 }
 
-/* line 172, ../scss/_bootstrap.scss */
+/* line 171, ../scss/_bootstrap.scss */
 .col-xs-pull-0 {
   right: 0%;
 }
 
-/* line 175, ../scss/_bootstrap.scss */
+/* line 174, ../scss/_bootstrap.scss */
 .col-xs-push-12 {
   left: 100%;
 }
 
-/* line 178, ../scss/_bootstrap.scss */
+/* line 177, ../scss/_bootstrap.scss */
 .col-xs-push-11 {
   left: 91.66666666666666%;
 }
 
-/* line 181, ../scss/_bootstrap.scss */
+/* line 180, ../scss/_bootstrap.scss */
 .col-xs-push-10 {
   left: 83.33333333333334%;
 }
 
-/* line 184, ../scss/_bootstrap.scss */
+/* line 183, ../scss/_bootstrap.scss */
 .col-xs-push-9 {
   left: 75%;
 }
 
-/* line 187, ../scss/_bootstrap.scss */
+/* line 186, ../scss/_bootstrap.scss */
 .col-xs-push-8 {
   left: 66.66666666666666%;
 }
 
-/* line 190, ../scss/_bootstrap.scss */
+/* line 189, ../scss/_bootstrap.scss */
 .col-xs-push-7 {
   left: 58.333333333333336%;
 }
 
-/* line 193, ../scss/_bootstrap.scss */
+/* line 192, ../scss/_bootstrap.scss */
 .col-xs-push-6 {
   left: 50%;
 }
 
-/* line 196, ../scss/_bootstrap.scss */
+/* line 195, ../scss/_bootstrap.scss */
 .col-xs-push-5 {
   left: 41.66666666666667%;
 }
 
-/* line 199, ../scss/_bootstrap.scss */
+/* line 198, ../scss/_bootstrap.scss */
 .col-xs-push-4 {
   left: 33.33333333333333%;
 }
 
-/* line 202, ../scss/_bootstrap.scss */
+/* line 201, ../scss/_bootstrap.scss */
 .col-xs-push-3 {
   left: 25%;
 }
 
-/* line 205, ../scss/_bootstrap.scss */
+/* line 204, ../scss/_bootstrap.scss */
 .col-xs-push-2 {
   left: 16.666666666666664%;
 }
 
-/* line 208, ../scss/_bootstrap.scss */
+/* line 207, ../scss/_bootstrap.scss */
 .col-xs-push-1 {
   left: 8.333333333333332%;
 }
 
-/* line 211, ../scss/_bootstrap.scss */
+/* line 210, ../scss/_bootstrap.scss */
 .col-xs-push-0 {
   left: 0%;
 }
 
-/* line 214, ../scss/_bootstrap.scss */
+/* line 213, ../scss/_bootstrap.scss */
 .col-xs-offset-12 {
   margin-left: 100%;
 }
 
-/* line 217, ../scss/_bootstrap.scss */
+/* line 216, ../scss/_bootstrap.scss */
 .col-xs-offset-11 {
   margin-left: 91.66666666666666%;
 }
 
-/* line 220, ../scss/_bootstrap.scss */
+/* line 219, ../scss/_bootstrap.scss */
 .col-xs-offset-10 {
   margin-left: 83.33333333333334%;
 }
 
-/* line 223, ../scss/_bootstrap.scss */
+/* line 222, ../scss/_bootstrap.scss */
 .col-xs-offset-9 {
   margin-left: 75%;
 }
 
-/* line 226, ../scss/_bootstrap.scss */
+/* line 225, ../scss/_bootstrap.scss */
 .col-xs-offset-8 {
   margin-left: 66.66666666666666%;
 }
 
-/* line 229, ../scss/_bootstrap.scss */
+/* line 228, ../scss/_bootstrap.scss */
 .col-xs-offset-7 {
   margin-left: 58.333333333333336%;
 }
 
-/* line 232, ../scss/_bootstrap.scss */
+/* line 231, ../scss/_bootstrap.scss */
 .col-xs-offset-6 {
   margin-left: 50%;
 }
 
-/* line 235, ../scss/_bootstrap.scss */
+/* line 234, ../scss/_bootstrap.scss */
 .col-xs-offset-5 {
   margin-left: 41.66666666666667%;
 }
 
-/* line 238, ../scss/_bootstrap.scss */
+/* line 237, ../scss/_bootstrap.scss */
 .col-xs-offset-4 {
   margin-left: 33.33333333333333%;
 }
 
-/* line 241, ../scss/_bootstrap.scss */
+/* line 240, ../scss/_bootstrap.scss */
 .col-xs-offset-3 {
   margin-left: 25%;
 }
 
-/* line 244, ../scss/_bootstrap.scss */
+/* line 243, ../scss/_bootstrap.scss */
 .col-xs-offset-2 {
   margin-left: 16.666666666666664%;
 }
 
-/* line 247, ../scss/_bootstrap.scss */
+/* line 246, ../scss/_bootstrap.scss */
 .col-xs-offset-1 {
   margin-left: 8.333333333333332%;
 }
 
-/* line 250, ../scss/_bootstrap.scss */
+/* line 249, ../scss/_bootstrap.scss */
 .col-xs-offset-0 {
   margin-left: 0%;
 }
 
 @media (min-width: 768px) {
-  /* line 254, ../scss/_bootstrap.scss */
+  /* line 253, ../scss/_bootstrap.scss */
   .container {
     width: 750px;
   }
 
-  /* line 257, ../scss/_bootstrap.scss */
+  /* line 256, ../scss/_bootstrap.scss */
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11 {
     float: left;
   }
 
-  /* line 260, ../scss/_bootstrap.scss */
+  /* line 259, ../scss/_bootstrap.scss */
   .col-sm-12 {
     width: 100%;
   }
 
-  /* line 263, ../scss/_bootstrap.scss */
+  /* line 262, ../scss/_bootstrap.scss */
   .col-sm-11 {
     width: 91.66666666666666%;
   }
 
-  /* line 266, ../scss/_bootstrap.scss */
+  /* line 265, ../scss/_bootstrap.scss */
   .col-sm-10 {
     width: 83.33333333333334%;
   }
 
-  /* line 269, ../scss/_bootstrap.scss */
+  /* line 268, ../scss/_bootstrap.scss */
   .col-sm-9 {
     width: 75%;
   }
 
-  /* line 272, ../scss/_bootstrap.scss */
+  /* line 271, ../scss/_bootstrap.scss */
   .col-sm-8 {
     width: 66.66666666666666%;
   }
 
-  /* line 275, ../scss/_bootstrap.scss */
+  /* line 274, ../scss/_bootstrap.scss */
   .col-sm-7 {
     width: 58.333333333333336%;
   }
 
-  /* line 278, ../scss/_bootstrap.scss */
+  /* line 277, ../scss/_bootstrap.scss */
   .col-sm-6 {
     width: 50%;
   }
 
-  /* line 281, ../scss/_bootstrap.scss */
+  /* line 280, ../scss/_bootstrap.scss */
   .col-sm-5 {
     width: 41.66666666666667%;
   }
 
-  /* line 284, ../scss/_bootstrap.scss */
+  /* line 283, ../scss/_bootstrap.scss */
   .col-sm-4 {
     width: 33.33333333333333%;
   }
 
-  /* line 287, ../scss/_bootstrap.scss */
+  /* line 286, ../scss/_bootstrap.scss */
   .col-sm-3 {
     width: 25%;
   }
 
-  /* line 290, ../scss/_bootstrap.scss */
+  /* line 289, ../scss/_bootstrap.scss */
   .col-sm-2 {
     width: 16.666666666666664%;
   }
 
-  /* line 293, ../scss/_bootstrap.scss */
+  /* line 292, ../scss/_bootstrap.scss */
   .col-sm-1 {
     width: 8.333333333333332%;
   }
 
-  /* line 296, ../scss/_bootstrap.scss */
+  /* line 295, ../scss/_bootstrap.scss */
   .col-sm-pull-12 {
     right: 100%;
   }
 
-  /* line 299, ../scss/_bootstrap.scss */
+  /* line 298, ../scss/_bootstrap.scss */
   .col-sm-pull-11 {
     right: 91.66666666666666%;
   }
 
-  /* line 302, ../scss/_bootstrap.scss */
+  /* line 301, ../scss/_bootstrap.scss */
   .col-sm-pull-10 {
     right: 83.33333333333334%;
   }
 
-  /* line 305, ../scss/_bootstrap.scss */
+  /* line 304, ../scss/_bootstrap.scss */
   .col-sm-pull-9 {
     right: 75%;
   }
 
-  /* line 308, ../scss/_bootstrap.scss */
+  /* line 307, ../scss/_bootstrap.scss */
   .col-sm-pull-8 {
     right: 66.66666666666666%;
   }
 
-  /* line 311, ../scss/_bootstrap.scss */
+  /* line 310, ../scss/_bootstrap.scss */
   .col-sm-pull-7 {
     right: 58.333333333333336%;
   }
 
-  /* line 314, ../scss/_bootstrap.scss */
+  /* line 313, ../scss/_bootstrap.scss */
   .col-sm-pull-6 {
     right: 50%;
   }
 
-  /* line 317, ../scss/_bootstrap.scss */
+  /* line 316, ../scss/_bootstrap.scss */
   .col-sm-pull-5 {
     right: 41.66666666666667%;
   }
 
-  /* line 320, ../scss/_bootstrap.scss */
+  /* line 319, ../scss/_bootstrap.scss */
   .col-sm-pull-4 {
     right: 33.33333333333333%;
   }
 
-  /* line 323, ../scss/_bootstrap.scss */
+  /* line 322, ../scss/_bootstrap.scss */
   .col-sm-pull-3 {
     right: 25%;
   }
 
-  /* line 326, ../scss/_bootstrap.scss */
+  /* line 325, ../scss/_bootstrap.scss */
   .col-sm-pull-2 {
     right: 16.666666666666664%;
   }
 
-  /* line 329, ../scss/_bootstrap.scss */
+  /* line 328, ../scss/_bootstrap.scss */
   .col-sm-pull-1 {
     right: 8.333333333333332%;
   }
 
-  /* line 332, ../scss/_bootstrap.scss */
+  /* line 331, ../scss/_bootstrap.scss */
   .col-sm-pull-0 {
     right: 0%;
   }
 
-  /* line 335, ../scss/_bootstrap.scss */
+  /* line 334, ../scss/_bootstrap.scss */
   .col-sm-push-12 {
     left: 100%;
   }
 
-  /* line 338, ../scss/_bootstrap.scss */
+  /* line 337, ../scss/_bootstrap.scss */
   .col-sm-push-11 {
     left: 91.66666666666666%;
   }
 
-  /* line 341, ../scss/_bootstrap.scss */
+  /* line 340, ../scss/_bootstrap.scss */
   .col-sm-push-10 {
     left: 83.33333333333334%;
   }
 
-  /* line 344, ../scss/_bootstrap.scss */
+  /* line 343, ../scss/_bootstrap.scss */
   .col-sm-push-9 {
     left: 75%;
   }
 
-  /* line 347, ../scss/_bootstrap.scss */
+  /* line 346, ../scss/_bootstrap.scss */
   .col-sm-push-8 {
     left: 66.66666666666666%;
   }
 
-  /* line 350, ../scss/_bootstrap.scss */
+  /* line 349, ../scss/_bootstrap.scss */
   .col-sm-push-7 {
     left: 58.333333333333336%;
   }
 
-  /* line 353, ../scss/_bootstrap.scss */
+  /* line 352, ../scss/_bootstrap.scss */
   .col-sm-push-6 {
     left: 50%;
   }
 
-  /* line 356, ../scss/_bootstrap.scss */
+  /* line 355, ../scss/_bootstrap.scss */
   .col-sm-push-5 {
     left: 41.66666666666667%;
   }
 
-  /* line 359, ../scss/_bootstrap.scss */
+  /* line 358, ../scss/_bootstrap.scss */
   .col-sm-push-4 {
     left: 33.33333333333333%;
   }
 
-  /* line 362, ../scss/_bootstrap.scss */
+  /* line 361, ../scss/_bootstrap.scss */
   .col-sm-push-3 {
     left: 25%;
   }
 
-  /* line 365, ../scss/_bootstrap.scss */
+  /* line 364, ../scss/_bootstrap.scss */
   .col-sm-push-2 {
     left: 16.666666666666664%;
   }
 
-  /* line 368, ../scss/_bootstrap.scss */
+  /* line 367, ../scss/_bootstrap.scss */
   .col-sm-push-1 {
     left: 8.333333333333332%;
   }
 
-  /* line 371, ../scss/_bootstrap.scss */
+  /* line 370, ../scss/_bootstrap.scss */
   .col-sm-push-0 {
     left: 0%;
   }
 
-  /* line 374, ../scss/_bootstrap.scss */
+  /* line 373, ../scss/_bootstrap.scss */
   .col-sm-offset-12 {
     margin-left: 100%;
   }
 
-  /* line 377, ../scss/_bootstrap.scss */
+  /* line 376, ../scss/_bootstrap.scss */
   .col-sm-offset-11 {
     margin-left: 91.66666666666666%;
   }
 
-  /* line 380, ../scss/_bootstrap.scss */
+  /* line 379, ../scss/_bootstrap.scss */
   .col-sm-offset-10 {
     margin-left: 83.33333333333334%;
   }
 
-  /* line 383, ../scss/_bootstrap.scss */
+  /* line 382, ../scss/_bootstrap.scss */
   .col-sm-offset-9 {
     margin-left: 75%;
   }
 
-  /* line 386, ../scss/_bootstrap.scss */
+  /* line 385, ../scss/_bootstrap.scss */
   .col-sm-offset-8 {
     margin-left: 66.66666666666666%;
   }
 
-  /* line 389, ../scss/_bootstrap.scss */
+  /* line 388, ../scss/_bootstrap.scss */
   .col-sm-offset-7 {
     margin-left: 58.333333333333336%;
   }
 
-  /* line 392, ../scss/_bootstrap.scss */
+  /* line 391, ../scss/_bootstrap.scss */
   .col-sm-offset-6 {
     margin-left: 50%;
   }
 
-  /* line 395, ../scss/_bootstrap.scss */
+  /* line 394, ../scss/_bootstrap.scss */
   .col-sm-offset-5 {
     margin-left: 41.66666666666667%;
   }
 
-  /* line 398, ../scss/_bootstrap.scss */
+  /* line 397, ../scss/_bootstrap.scss */
   .col-sm-offset-4 {
     margin-left: 33.33333333333333%;
   }
 
-  /* line 401, ../scss/_bootstrap.scss */
+  /* line 400, ../scss/_bootstrap.scss */
   .col-sm-offset-3 {
     margin-left: 25%;
   }
 
-  /* line 404, ../scss/_bootstrap.scss */
+  /* line 403, ../scss/_bootstrap.scss */
   .col-sm-offset-2 {
     margin-left: 16.666666666666664%;
   }
 
-  /* line 407, ../scss/_bootstrap.scss */
+  /* line 406, ../scss/_bootstrap.scss */
   .col-sm-offset-1 {
     margin-left: 8.333333333333332%;
   }
 
-  /* line 410, ../scss/_bootstrap.scss */
+  /* line 409, ../scss/_bootstrap.scss */
   .col-sm-offset-0 {
     margin-left: 0%;
   }
 }
 @media (min-width: 992px) {
-  /* line 415, ../scss/_bootstrap.scss */
+  /* line 414, ../scss/_bootstrap.scss */
   .container {
     width: 970px;
   }
 
-  /* line 418, ../scss/_bootstrap.scss */
+  /* line 417, ../scss/_bootstrap.scss */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
     float: left;
   }
 
-  /* line 421, ../scss/_bootstrap.scss */
+  /* line 420, ../scss/_bootstrap.scss */
   .col-md-12 {
     width: 100%;
   }
 
-  /* line 424, ../scss/_bootstrap.scss */
+  /* line 423, ../scss/_bootstrap.scss */
   .col-md-11 {
     width: 91.66666666666666%;
   }
 
-  /* line 427, ../scss/_bootstrap.scss */
+  /* line 426, ../scss/_bootstrap.scss */
   .col-md-10 {
     width: 83.33333333333334%;
   }
 
-  /* line 430, ../scss/_bootstrap.scss */
+  /* line 429, ../scss/_bootstrap.scss */
   .col-md-9 {
     width: 75%;
   }
 
-  /* line 433, ../scss/_bootstrap.scss */
+  /* line 432, ../scss/_bootstrap.scss */
   .col-md-8 {
     width: 66.66666666666666%;
   }
 
-  /* line 436, ../scss/_bootstrap.scss */
+  /* line 435, ../scss/_bootstrap.scss */
   .col-md-7 {
     width: 58.333333333333336%;
   }
 
-  /* line 439, ../scss/_bootstrap.scss */
+  /* line 438, ../scss/_bootstrap.scss */
   .col-md-6 {
     width: 50%;
   }
 
-  /* line 442, ../scss/_bootstrap.scss */
+  /* line 441, ../scss/_bootstrap.scss */
   .col-md-5 {
     width: 41.66666666666667%;
   }
 
-  /* line 445, ../scss/_bootstrap.scss */
+  /* line 444, ../scss/_bootstrap.scss */
   .col-md-4 {
     width: 33.33333333333333%;
   }
 
-  /* line 448, ../scss/_bootstrap.scss */
+  /* line 447, ../scss/_bootstrap.scss */
   .col-md-3 {
     width: 25%;
   }
 
-  /* line 451, ../scss/_bootstrap.scss */
+  /* line 450, ../scss/_bootstrap.scss */
   .col-md-2 {
     width: 16.666666666666664%;
   }
 
-  /* line 454, ../scss/_bootstrap.scss */
+  /* line 453, ../scss/_bootstrap.scss */
   .col-md-1 {
     width: 8.333333333333332%;
   }
 
-  /* line 457, ../scss/_bootstrap.scss */
+  /* line 456, ../scss/_bootstrap.scss */
   .col-md-pull-12 {
     right: 100%;
   }
 
-  /* line 460, ../scss/_bootstrap.scss */
+  /* line 459, ../scss/_bootstrap.scss */
   .col-md-pull-11 {
     right: 91.66666666666666%;
   }
 
-  /* line 463, ../scss/_bootstrap.scss */
+  /* line 462, ../scss/_bootstrap.scss */
   .col-md-pull-10 {
     right: 83.33333333333334%;
   }
 
-  /* line 466, ../scss/_bootstrap.scss */
+  /* line 465, ../scss/_bootstrap.scss */
   .col-md-pull-9 {
     right: 75%;
   }
 
-  /* line 469, ../scss/_bootstrap.scss */
+  /* line 468, ../scss/_bootstrap.scss */
   .col-md-pull-8 {
     right: 66.66666666666666%;
   }
 
-  /* line 472, ../scss/_bootstrap.scss */
+  /* line 471, ../scss/_bootstrap.scss */
   .col-md-pull-7 {
     right: 58.333333333333336%;
   }
 
-  /* line 475, ../scss/_bootstrap.scss */
+  /* line 474, ../scss/_bootstrap.scss */
   .col-md-pull-6 {
     right: 50%;
   }
 
-  /* line 478, ../scss/_bootstrap.scss */
+  /* line 477, ../scss/_bootstrap.scss */
   .col-md-pull-5 {
     right: 41.66666666666667%;
   }
 
-  /* line 481, ../scss/_bootstrap.scss */
+  /* line 480, ../scss/_bootstrap.scss */
   .col-md-pull-4 {
     right: 33.33333333333333%;
   }
 
-  /* line 484, ../scss/_bootstrap.scss */
+  /* line 483, ../scss/_bootstrap.scss */
   .col-md-pull-3 {
     right: 25%;
   }
 
-  /* line 487, ../scss/_bootstrap.scss */
+  /* line 486, ../scss/_bootstrap.scss */
   .col-md-pull-2 {
     right: 16.666666666666664%;
   }
 
-  /* line 490, ../scss/_bootstrap.scss */
+  /* line 489, ../scss/_bootstrap.scss */
   .col-md-pull-1 {
     right: 8.333333333333332%;
   }
 
-  /* line 493, ../scss/_bootstrap.scss */
+  /* line 492, ../scss/_bootstrap.scss */
   .col-md-pull-0 {
     right: 0%;
   }
 
-  /* line 496, ../scss/_bootstrap.scss */
+  /* line 495, ../scss/_bootstrap.scss */
   .col-md-push-12 {
     left: 100%;
   }
 
-  /* line 499, ../scss/_bootstrap.scss */
+  /* line 498, ../scss/_bootstrap.scss */
   .col-md-push-11 {
     left: 91.66666666666666%;
   }
 
-  /* line 502, ../scss/_bootstrap.scss */
+  /* line 501, ../scss/_bootstrap.scss */
   .col-md-push-10 {
     left: 83.33333333333334%;
   }
 
-  /* line 505, ../scss/_bootstrap.scss */
+  /* line 504, ../scss/_bootstrap.scss */
   .col-md-push-9 {
     left: 75%;
   }
 
-  /* line 508, ../scss/_bootstrap.scss */
+  /* line 507, ../scss/_bootstrap.scss */
   .col-md-push-8 {
     left: 66.66666666666666%;
   }
 
-  /* line 511, ../scss/_bootstrap.scss */
+  /* line 510, ../scss/_bootstrap.scss */
   .col-md-push-7 {
     left: 58.333333333333336%;
   }
 
-  /* line 514, ../scss/_bootstrap.scss */
+  /* line 513, ../scss/_bootstrap.scss */
   .col-md-push-6 {
     left: 50%;
   }
 
-  /* line 517, ../scss/_bootstrap.scss */
+  /* line 516, ../scss/_bootstrap.scss */
   .col-md-push-5 {
     left: 41.66666666666667%;
   }
 
-  /* line 520, ../scss/_bootstrap.scss */
+  /* line 519, ../scss/_bootstrap.scss */
   .col-md-push-4 {
     left: 33.33333333333333%;
   }
 
-  /* line 523, ../scss/_bootstrap.scss */
+  /* line 522, ../scss/_bootstrap.scss */
   .col-md-push-3 {
     left: 25%;
   }
 
-  /* line 526, ../scss/_bootstrap.scss */
+  /* line 525, ../scss/_bootstrap.scss */
   .col-md-push-2 {
     left: 16.666666666666664%;
   }
 
-  /* line 529, ../scss/_bootstrap.scss */
+  /* line 528, ../scss/_bootstrap.scss */
   .col-md-push-1 {
     left: 8.333333333333332%;
   }
 
-  /* line 532, ../scss/_bootstrap.scss */
+  /* line 531, ../scss/_bootstrap.scss */
   .col-md-push-0 {
     left: 0%;
   }
 
-  /* line 535, ../scss/_bootstrap.scss */
+  /* line 534, ../scss/_bootstrap.scss */
   .col-md-offset-12 {
     margin-left: 100%;
   }
 
-  /* line 538, ../scss/_bootstrap.scss */
+  /* line 537, ../scss/_bootstrap.scss */
   .col-md-offset-11 {
     margin-left: 91.66666666666666%;
   }
 
-  /* line 541, ../scss/_bootstrap.scss */
+  /* line 540, ../scss/_bootstrap.scss */
   .col-md-offset-10 {
     margin-left: 83.33333333333334%;
   }
 
-  /* line 544, ../scss/_bootstrap.scss */
+  /* line 543, ../scss/_bootstrap.scss */
   .col-md-offset-9 {
     margin-left: 75%;
   }
 
-  /* line 547, ../scss/_bootstrap.scss */
+  /* line 546, ../scss/_bootstrap.scss */
   .col-md-offset-8 {
     margin-left: 66.66666666666666%;
   }
 
-  /* line 550, ../scss/_bootstrap.scss */
+  /* line 549, ../scss/_bootstrap.scss */
   .col-md-offset-7 {
     margin-left: 58.333333333333336%;
   }
 
-  /* line 553, ../scss/_bootstrap.scss */
+  /* line 552, ../scss/_bootstrap.scss */
   .col-md-offset-6 {
     margin-left: 50%;
   }
 
-  /* line 556, ../scss/_bootstrap.scss */
+  /* line 555, ../scss/_bootstrap.scss */
   .col-md-offset-5 {
     margin-left: 41.66666666666667%;
   }
 
-  /* line 559, ../scss/_bootstrap.scss */
+  /* line 558, ../scss/_bootstrap.scss */
   .col-md-offset-4 {
     margin-left: 33.33333333333333%;
   }
 
-  /* line 562, ../scss/_bootstrap.scss */
+  /* line 561, ../scss/_bootstrap.scss */
   .col-md-offset-3 {
     margin-left: 25%;
   }
 
-  /* line 565, ../scss/_bootstrap.scss */
+  /* line 564, ../scss/_bootstrap.scss */
   .col-md-offset-2 {
     margin-left: 16.666666666666664%;
   }
 
-  /* line 568, ../scss/_bootstrap.scss */
+  /* line 567, ../scss/_bootstrap.scss */
   .col-md-offset-1 {
     margin-left: 8.333333333333332%;
   }
 
-  /* line 571, ../scss/_bootstrap.scss */
+  /* line 570, ../scss/_bootstrap.scss */
   .col-md-offset-0 {
     margin-left: 0%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 576, ../scss/_bootstrap.scss */
+  /* line 575, ../scss/_bootstrap.scss */
   .container {
     width: 1170px;
   }
 
-  /* line 579, ../scss/_bootstrap.scss */
+  /* line 578, ../scss/_bootstrap.scss */
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11 {
     float: left;
   }
 
-  /* line 582, ../scss/_bootstrap.scss */
+  /* line 581, ../scss/_bootstrap.scss */
   .col-lg-12 {
     width: 100%;
   }
 
-  /* line 585, ../scss/_bootstrap.scss */
+  /* line 584, ../scss/_bootstrap.scss */
   .col-lg-11 {
     width: 91.66666666666666%;
   }
 
-  /* line 588, ../scss/_bootstrap.scss */
+  /* line 587, ../scss/_bootstrap.scss */
   .col-lg-10 {
     width: 83.33333333333334%;
   }
 
-  /* line 591, ../scss/_bootstrap.scss */
+  /* line 590, ../scss/_bootstrap.scss */
   .col-lg-9 {
     width: 75%;
   }
 
-  /* line 594, ../scss/_bootstrap.scss */
+  /* line 593, ../scss/_bootstrap.scss */
   .col-lg-8 {
     width: 66.66666666666666%;
   }
 
-  /* line 597, ../scss/_bootstrap.scss */
+  /* line 596, ../scss/_bootstrap.scss */
   .col-lg-7 {
     width: 58.333333333333336%;
   }
 
-  /* line 600, ../scss/_bootstrap.scss */
+  /* line 599, ../scss/_bootstrap.scss */
   .col-lg-6 {
     width: 50%;
   }
 
-  /* line 603, ../scss/_bootstrap.scss */
+  /* line 602, ../scss/_bootstrap.scss */
   .col-lg-5 {
     width: 41.66666666666667%;
   }
 
-  /* line 606, ../scss/_bootstrap.scss */
+  /* line 605, ../scss/_bootstrap.scss */
   .col-lg-4 {
     width: 33.33333333333333%;
   }
 
-  /* line 609, ../scss/_bootstrap.scss */
+  /* line 608, ../scss/_bootstrap.scss */
   .col-lg-3 {
     width: 25%;
   }
 
-  /* line 612, ../scss/_bootstrap.scss */
+  /* line 611, ../scss/_bootstrap.scss */
   .col-lg-2 {
     width: 16.666666666666664%;
   }
 
-  /* line 615, ../scss/_bootstrap.scss */
+  /* line 614, ../scss/_bootstrap.scss */
   .col-lg-1 {
     width: 8.333333333333332%;
   }
 
-  /* line 618, ../scss/_bootstrap.scss */
+  /* line 617, ../scss/_bootstrap.scss */
   .col-lg-pull-12 {
     right: 100%;
   }
 
-  /* line 621, ../scss/_bootstrap.scss */
+  /* line 620, ../scss/_bootstrap.scss */
   .col-lg-pull-11 {
     right: 91.66666666666666%;
   }
 
-  /* line 624, ../scss/_bootstrap.scss */
+  /* line 623, ../scss/_bootstrap.scss */
   .col-lg-pull-10 {
     right: 83.33333333333334%;
   }
 
-  /* line 627, ../scss/_bootstrap.scss */
+  /* line 626, ../scss/_bootstrap.scss */
   .col-lg-pull-9 {
     right: 75%;
   }
 
-  /* line 630, ../scss/_bootstrap.scss */
+  /* line 629, ../scss/_bootstrap.scss */
   .col-lg-pull-8 {
     right: 66.66666666666666%;
   }
 
-  /* line 633, ../scss/_bootstrap.scss */
+  /* line 632, ../scss/_bootstrap.scss */
   .col-lg-pull-7 {
     right: 58.333333333333336%;
   }
 
-  /* line 636, ../scss/_bootstrap.scss */
+  /* line 635, ../scss/_bootstrap.scss */
   .col-lg-pull-6 {
     right: 50%;
   }
 
-  /* line 639, ../scss/_bootstrap.scss */
+  /* line 638, ../scss/_bootstrap.scss */
   .col-lg-pull-5 {
     right: 41.66666666666667%;
   }
 
-  /* line 642, ../scss/_bootstrap.scss */
+  /* line 641, ../scss/_bootstrap.scss */
   .col-lg-pull-4 {
     right: 33.33333333333333%;
   }
 
-  /* line 645, ../scss/_bootstrap.scss */
+  /* line 644, ../scss/_bootstrap.scss */
   .col-lg-pull-3 {
     right: 25%;
   }
 
-  /* line 648, ../scss/_bootstrap.scss */
+  /* line 647, ../scss/_bootstrap.scss */
   .col-lg-pull-2 {
     right: 16.666666666666664%;
   }
 
-  /* line 651, ../scss/_bootstrap.scss */
+  /* line 650, ../scss/_bootstrap.scss */
   .col-lg-pull-1 {
     right: 8.333333333333332%;
   }
 
-  /* line 654, ../scss/_bootstrap.scss */
+  /* line 653, ../scss/_bootstrap.scss */
   .col-lg-pull-0 {
     right: 0%;
   }
 
-  /* line 657, ../scss/_bootstrap.scss */
+  /* line 656, ../scss/_bootstrap.scss */
   .col-lg-push-12 {
     left: 100%;
   }
 
-  /* line 660, ../scss/_bootstrap.scss */
+  /* line 659, ../scss/_bootstrap.scss */
   .col-lg-push-11 {
     left: 91.66666666666666%;
   }
 
-  /* line 663, ../scss/_bootstrap.scss */
+  /* line 662, ../scss/_bootstrap.scss */
   .col-lg-push-10 {
     left: 83.33333333333334%;
   }
 
-  /* line 666, ../scss/_bootstrap.scss */
+  /* line 665, ../scss/_bootstrap.scss */
   .col-lg-push-9 {
     left: 75%;
   }
 
-  /* line 669, ../scss/_bootstrap.scss */
+  /* line 668, ../scss/_bootstrap.scss */
   .col-lg-push-8 {
     left: 66.66666666666666%;
   }
 
-  /* line 672, ../scss/_bootstrap.scss */
+  /* line 671, ../scss/_bootstrap.scss */
   .col-lg-push-7 {
     left: 58.333333333333336%;
   }
 
-  /* line 675, ../scss/_bootstrap.scss */
+  /* line 674, ../scss/_bootstrap.scss */
   .col-lg-push-6 {
     left: 50%;
   }
 
-  /* line 678, ../scss/_bootstrap.scss */
+  /* line 677, ../scss/_bootstrap.scss */
   .col-lg-push-5 {
     left: 41.66666666666667%;
   }
 
-  /* line 681, ../scss/_bootstrap.scss */
+  /* line 680, ../scss/_bootstrap.scss */
   .col-lg-push-4 {
     left: 33.33333333333333%;
   }
 
-  /* line 684, ../scss/_bootstrap.scss */
+  /* line 683, ../scss/_bootstrap.scss */
   .col-lg-push-3 {
     left: 25%;
   }
 
-  /* line 687, ../scss/_bootstrap.scss */
+  /* line 686, ../scss/_bootstrap.scss */
   .col-lg-push-2 {
     left: 16.666666666666664%;
   }
 
-  /* line 690, ../scss/_bootstrap.scss */
+  /* line 689, ../scss/_bootstrap.scss */
   .col-lg-push-1 {
     left: 8.333333333333332%;
   }
 
-  /* line 693, ../scss/_bootstrap.scss */
+  /* line 692, ../scss/_bootstrap.scss */
   .col-lg-push-0 {
     left: 0%;
   }
 
-  /* line 696, ../scss/_bootstrap.scss */
+  /* line 695, ../scss/_bootstrap.scss */
   .col-lg-offset-12 {
     margin-left: 100%;
   }
 
-  /* line 699, ../scss/_bootstrap.scss */
+  /* line 698, ../scss/_bootstrap.scss */
   .col-lg-offset-11 {
     margin-left: 91.66666666666666%;
   }
 
-  /* line 702, ../scss/_bootstrap.scss */
+  /* line 701, ../scss/_bootstrap.scss */
   .col-lg-offset-10 {
     margin-left: 83.33333333333334%;
   }
 
-  /* line 705, ../scss/_bootstrap.scss */
+  /* line 704, ../scss/_bootstrap.scss */
   .col-lg-offset-9 {
     margin-left: 75%;
   }
 
-  /* line 708, ../scss/_bootstrap.scss */
+  /* line 707, ../scss/_bootstrap.scss */
   .col-lg-offset-8 {
     margin-left: 66.66666666666666%;
   }
 
-  /* line 711, ../scss/_bootstrap.scss */
+  /* line 710, ../scss/_bootstrap.scss */
   .col-lg-offset-7 {
     margin-left: 58.333333333333336%;
   }
 
-  /* line 714, ../scss/_bootstrap.scss */
+  /* line 713, ../scss/_bootstrap.scss */
   .col-lg-offset-6 {
     margin-left: 50%;
   }
 
-  /* line 717, ../scss/_bootstrap.scss */
+  /* line 716, ../scss/_bootstrap.scss */
   .col-lg-offset-5 {
     margin-left: 41.66666666666667%;
   }
 
-  /* line 720, ../scss/_bootstrap.scss */
+  /* line 719, ../scss/_bootstrap.scss */
   .col-lg-offset-4 {
     margin-left: 33.33333333333333%;
   }
 
-  /* line 723, ../scss/_bootstrap.scss */
+  /* line 722, ../scss/_bootstrap.scss */
   .col-lg-offset-3 {
     margin-left: 25%;
   }
 
-  /* line 726, ../scss/_bootstrap.scss */
+  /* line 725, ../scss/_bootstrap.scss */
   .col-lg-offset-2 {
     margin-left: 16.666666666666664%;
   }
 
-  /* line 729, ../scss/_bootstrap.scss */
+  /* line 728, ../scss/_bootstrap.scss */
   .col-lg-offset-1 {
     margin-left: 8.333333333333332%;
   }
 
-  /* line 732, ../scss/_bootstrap.scss */
+  /* line 731, ../scss/_bootstrap.scss */
   .col-lg-offset-0 {
     margin-left: 0%;
   }
@@ -1490,7 +1489,7 @@ hr {
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-/* line 17, ../scss/_main.scss */
+/* line 22, ../scss/_main.scss */
 html,
 button,
 input,
@@ -1499,12 +1498,13 @@ textarea {
   color: #222;
 }
 
-/* line 21, ../scss/_main.scss */
+/* line 26, ../scss/_main.scss */
 body {
   font-size: 18px;
   line-height: 1.4;
   font-family: "proxima-nova", "helvetica", "arial",sans-serif;
   background: #efebe3;
+  padding-top: 16px;
 }
 
 /*
@@ -1512,13 +1512,13 @@ body {
 	 * These selection declarations have to be separate.
 	 * Customize the background color to match your design.
 	 */
-/* line 34, ../scss/_main.scss */
+/* line 40, ../scss/_main.scss */
 ::-moz-selection {
   background: #FD7D1F;
   text-shadow: none;
 }
 
-/* line 39, ../scss/_main.scss */
+/* line 45, ../scss/_main.scss */
 ::selection {
   background: #FD7D1F;
   text-shadow: none;
@@ -1527,23 +1527,23 @@ body {
 /*
 	 * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
 	 */
-/* line 48, ../scss/_main.scss */
+/* line 54, ../scss/_main.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 51, ../scss/_main.scss */
+/* line 57, ../scss/_main.scss */
 a {
   color: #222;
   text-decoration: none;
 }
 
-/* line 55, ../scss/_main.scss */
+/* line 61, ../scss/_main.scss */
 a:hover {
   color: #FD7D1F;
 }
 
-/* line 58, ../scss/_main.scss */
+/* line 64, ../scss/_main.scss */
 * {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
@@ -1555,7 +1555,7 @@ a:hover {
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
-/* line 71, ../scss/_main.scss */
+/* line 77, ../scss/_main.scss */
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -1566,36 +1566,38 @@ a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* line 82, ../scss/_main.scss */
+/* line 88, ../scss/_main.scss */
 .main {
   padding: 2em 2em;
 }
 
-/* line 86, ../scss/_main.scss */
+/* line 92, ../scss/_main.scss */
 h1 {
   font-size: 1.5em;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 0;
   font-weight: 600;
+  text-align: center;
 }
 
-/* line 94, ../scss/_main.scss */
+/* line 100, ../scss/_main.scss */
 h2 {
   font-size: 13px;
   font-family: "pt-sans", Georgia, serif;
-  margin: 0 0 4em 0;
   font-weight: 400;
   letter-spacing: 1px;
+  text-align: center;
 }
 
-/* line 101, ../scss/_main.scss */
+/* line 108, ../scss/_main.scss */
 .amp {
-  font-family: "pt-sans", "freight-text-pro", Georgia, serif;
+  font-family: "garamond-premier-pro-display", "freight-text-pro", Georgia, serif;
   font-weight: 400;
+  font-style: italic;
 }
 
-/* line 105, ../scss/_main.scss */
+/* line 113, ../scss/_main.scss */
 p {
   font-weight: 600;
   text-transform: uppercase;
@@ -1604,19 +1606,91 @@ p {
   margin: 0.5em 0;
 }
 
-/* line 112, ../scss/_main.scss */
+/* line 120, ../scss/_main.scss */
 ul {
   list-style: none;
   padding: 0 1em;
   margin: 0 0 1.4em 0;
 }
 
-/* line 117, ../scss/_main.scss */
+/* line 125, ../scss/_main.scss */
 li {
   font-size: 13px;
   font-family: "pt-sans", Georgia, serif;
   letter-spacing: 1px;
   font-weight: 400;
+}
+
+/* line 133, ../scss/_main.scss */
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* line 140, ../scss/_main.scss */
+.layer-1 {
+  z-index: 5000;
+}
+
+/* line 143, ../scss/_main.scss */
+.layer-2 {
+  z-index: 4000;
+}
+
+/* line 148, ../scss/_main.scss */
+.slide {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 156, ../scss/_main.scss */
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+/* line 163, ../scss/_main.scss */
+.image {
+  height: 350px;
+  width: 100%;
+  background: lightgreen;
+  background-size: cover;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+/* line 172, ../scss/_main.scss */
+.desc {
+  font-size: 13px;
+  font-family: "pt-sans", Georgia, serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+/* line 177, ../scss/_main.scss */
+.desc strong {
+  font-family: "proxima-nova", Georgia, serif;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 6px;
+}
+/* line 184, ../scss/_main.scss */
+.desc .dash {
+  display: none;
+  font-family: helvetica;
+}
+
+/* line 190, ../scss/_main.scss */
+.row:nth-child(1) {
+  margin-top: 16px;
+}
+
+/* line 197, ../scss/_main.scss */
+.row .offset-top {
+  margin-top: 16px;
 }
 
 /* ==========================================================================

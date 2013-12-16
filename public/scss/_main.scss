@@ -10,6 +10,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+
+
+
+
 	html,
 	button,
 	input,
@@ -23,6 +28,7 @@
 	    line-height: 1.4;
 		font-family: "proxima-nova", "helvetica", "arial",sans-serif;
 		background: #efebe3;
+		padding-top: 16px;
 	}
 
 /*
@@ -89,18 +95,20 @@
 		letter-spacing: 2px;
 		margin: 0;
 		font-weight: 600;
-		
+		text-align: center;		
 	}
 	h2 {
 		font-size: 13px;
 		font-family: "pt-sans", Georgia, serif;
-		margin: 0 0 4em 0;
+//		margin: 0 0 4em 0;
 		font-weight: 400;
 		letter-spacing: 1px;
+		text-align: center;		
 	}
 	.amp {
-		font-family: "pt-sans", "freight-text-pro", Georgia, serif;
+		font-family: "garamond-premier-pro-display", "freight-text-pro", Georgia, serif;
 		font-weight: 400;
+		font-style: italic;
 	}
 	p {
 		font-weight: 600;
@@ -120,6 +128,75 @@
 		letter-spacing: 1px;
 		font-weight: 400;
 		
+	}
+	
+	.layer {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+//		padding: 0 8px;
+	}
+	.layer-1 {
+		z-index: 5000;
+	}
+	.layer-2 {
+		z-index: 4000;
+//		opacity: 0.2;
+	}
+	
+	.slide {
+//		background: lightblue;
+		width: 100%;
+		height: 100%;
+	}
+	
+	
+	
+	img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 16px;
+		
+	}
+
+	.image {
+		height: 350px;
+		width: 100%;
+		background: lightgreen;
+		background-size: cover;
+		margin-bottom: 16px;
+		overflow: hidden;
+		
+	}
+	.desc {
+		font-size: 13px;
+		font-family: "pt-sans", Georgia, serif;
+		letter-spacing: 1px;
+		font-weight: 400;
+		strong {
+			font-family: "proxima-nova", Georgia, serif;
+			
+			text-transform: uppercase;
+			display: block;
+			margin-bottom: 6px;
+		}
+		.dash {
+			display: none;
+			font-family: helvetica;
+		}
+		margin-bottom: 16px;
+	}
+	.row:nth-child(1) {
+		margin-top: 16px;
+	}
+	
+	.row {
+//		margin-bottom: 16px;
+		
+		.offset-top {
+			margin-top: 16px;
+		}
 	}
 
 /* ==========================================================================
