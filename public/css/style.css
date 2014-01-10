@@ -1512,13 +1512,13 @@ body {
 	 * These selection declarations have to be separate.
 	 * Customize the background color to match your design.
 	 */
-/* line 40, ../scss/_main.scss */
+/* line 41, ../scss/_main.scss */
 ::-moz-selection {
   background: #FD7D1F;
   text-shadow: none;
 }
 
-/* line 45, ../scss/_main.scss */
+/* line 46, ../scss/_main.scss */
 ::selection {
   background: #FD7D1F;
   text-shadow: none;
@@ -1527,23 +1527,23 @@ body {
 /*
 	 * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
 	 */
-/* line 54, ../scss/_main.scss */
+/* line 55, ../scss/_main.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 57, ../scss/_main.scss */
+/* line 58, ../scss/_main.scss */
 a {
   color: #222;
   text-decoration: none;
 }
 
-/* line 61, ../scss/_main.scss */
+/* line 62, ../scss/_main.scss */
 a:hover {
   color: #FD7D1F;
 }
 
-/* line 64, ../scss/_main.scss */
+/* line 65, ../scss/_main.scss */
 * {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
@@ -1555,7 +1555,7 @@ a:hover {
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
-/* line 77, ../scss/_main.scss */
+/* line 78, ../scss/_main.scss */
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -1566,38 +1566,49 @@ a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* line 88, ../scss/_main.scss */
+/* line 89, ../scss/_main.scss */
 .main {
   padding: 2em 2em;
 }
 
-/* line 92, ../scss/_main.scss */
-h1 {
-  font-size: 1.5em;
+/* line 93, ../scss/_main.scss */
+header {
+  width: 380px;
+  margin: 0 auto;
+}
+/* line 98, ../scss/_main.scss */
+header .title {
+  padding: 4px 0;
+  font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 0;
   font-weight: 600;
-  text-align: center;
+  background: #222;
+  box-shadow: 12px 0 0 #222, -12px 0 0 #222;
+  color: white;
+  display: inline;
+  line-height: 1.25;
 }
-
-/* line 100, ../scss/_main.scss */
-h2 {
-  font-size: 13px;
+/* line 111, ../scss/_main.scss */
+header .sub {
+  margin-top: 1em;
+}
+/* line 114, ../scss/_main.scss */
+header .sub h2 {
+  padding: 6px 0;
+  display: inline;
+  font-size: 16px;
   font-family: "pt-sans", Georgia, serif;
   font-weight: 400;
   letter-spacing: 1px;
-  text-align: center;
+  background: #ce5802;
+  box-shadow: 12px 0 0 #ce5802, -12px 0 0 #ce5802;
+  color: white;
+  line-height: 1.5;
 }
 
-/* line 108, ../scss/_main.scss */
-.amp {
-  font-family: "garamond-premier-pro-display", "freight-text-pro", Georgia, serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-/* line 113, ../scss/_main.scss */
+/* line 135, ../scss/_main.scss */
 p {
   font-weight: 600;
   text-transform: uppercase;
@@ -1606,14 +1617,14 @@ p {
   margin: 0.5em 0;
 }
 
-/* line 120, ../scss/_main.scss */
+/* line 142, ../scss/_main.scss */
 ul {
   list-style: none;
   padding: 0 1em;
   margin: 0 0 1.4em 0;
 }
 
-/* line 125, ../scss/_main.scss */
+/* line 147, ../scss/_main.scss */
 li {
   font-size: 13px;
   font-family: "pt-sans", Georgia, serif;
@@ -1621,7 +1632,7 @@ li {
   font-weight: 400;
 }
 
-/* line 133, ../scss/_main.scss */
+/* line 155, ../scss/_main.scss */
 .layer {
   position: absolute;
   top: 0;
@@ -1630,36 +1641,31 @@ li {
   height: 100%;
 }
 
-/* line 141, ../scss/_main.scss */
+/* line 163, ../scss/_main.scss */
 .layer-1 {
   z-index: 5000;
+  position: fixed;
 }
 
-/* line 145, ../scss/_main.scss */
+/* line 168, ../scss/_main.scss */
 .layer-2 {
   z-index: 4000;
-  -webkit-filter: blur(2px);
-  -moz-filter: blur(2px);
-  -ms-filter: blur(2px);
-  -o-filter: blur(2px);
-  filter: blur(2px);
-  opacity: 0.5;
 }
 
-/* line 155, ../scss/_main.scss */
+/* line 179, ../scss/_main.scss */
 .slide {
   width: 100%;
   height: 100%;
 }
 
-/* line 163, ../scss/_main.scss */
+/* line 187, ../scss/_main.scss */
 img {
   width: 100%;
   height: auto;
   margin-bottom: 16px;
 }
 
-/* line 170, ../scss/_main.scss */
+/* line 194, ../scss/_main.scss */
 .image {
   height: 350px;
   width: 100%;
@@ -1669,7 +1675,7 @@ img {
   overflow: hidden;
 }
 
-/* line 179, ../scss/_main.scss */
+/* line 203, ../scss/_main.scss */
 .desc {
   font-size: 13px;
   font-family: "pt-sans", Georgia, serif;
@@ -1677,25 +1683,25 @@ img {
   font-weight: 400;
   margin-bottom: 16px;
 }
-/* line 184, ../scss/_main.scss */
+/* line 208, ../scss/_main.scss */
 .desc strong {
   font-family: "proxima-nova", Georgia, serif;
   text-transform: uppercase;
   display: block;
   margin-bottom: 6px;
 }
-/* line 191, ../scss/_main.scss */
+/* line 215, ../scss/_main.scss */
 .desc .dash {
   display: none;
   font-family: helvetica;
 }
 
-/* line 197, ../scss/_main.scss */
+/* line 221, ../scss/_main.scss */
 .row:nth-child(1) {
   margin-top: 16px;
 }
 
-/* line 204, ../scss/_main.scss */
+/* line 228, ../scss/_main.scss */
 .row .offset-top {
   margin-top: 16px;
 }
