@@ -17,13 +17,13 @@ button,
 input,
 select,
 textarea {
-  color: black;
+  color: #231f20;
 }
 
 /* line 32, ../scss/porters-trading-limited.scss */
 body {
   background: #fdca58;
-  color: black;
+  color: #231f20;
 }
 
 /* line 37, ../scss/porters-trading-limited.scss */
@@ -38,13 +38,13 @@ body {
 
 /* line 45, ../scss/porters-trading-limited.scss */
 a {
-  color: black;
+  color: #231f20;
 }
 
 /* line 48, ../scss/porters-trading-limited.scss */
 a:hover {
-  color: black;
-  border-bottom: 1px solid black;
+  color: #231f20;
+  border-bottom: 1px solid #231f20;
 }
 
 /* ==========================================================================
@@ -52,7 +52,7 @@ a:hover {
 	========================================================================== */
 /* line 57, ../scss/porters-trading-limited.scss */
 .line {
-  background: black;
+  background: #231f20;
 }
 
 /* ==========================================================================
@@ -72,7 +72,7 @@ a:hover {
 }
 /* line 77, ../scss/porters-trading-limited.scss */
 .main .about {
-  border-top: 1px solid black;
+  border-top: 1px solid #231f20;
 }
 
 /* ==========================================================================
@@ -84,11 +84,11 @@ a:hover {
 }
 /* line 98, ../scss/porters-trading-limited.scss */
 .project-page .project aside {
-  border-top: 1px solid black;
+  border-top: 1px solid #231f20;
 }
 /* line 101, ../scss/porters-trading-limited.scss */
 .project-page .project section {
-  border-top: 1px solid black;
+  border-top: 1px solid #231f20;
 }
 
 /* ==========================================================================
@@ -96,12 +96,12 @@ a:hover {
    ========================================================================== */
 /* line 111, ../scss/porters-trading-limited.scss */
 .list {
-  border-top: 1px solid black;
+  border-top: 1px solid #231f20;
 }
 
 /* line 117, ../scss/porters-trading-limited.scss */
 .copyright {
-  border-top: 1px solid black;
+  border-top: 1px solid #231f20;
 }
 
 /* ==========================================================================
@@ -109,5 +109,5 @@ a:hover {
    ========================================================================== */
 /* line 125, ../scss/porters-trading-limited.scss */
 .mobile-footer {
-  border-top: 1px solid black;
+  border-top: 1px solid #231f20;
 }
