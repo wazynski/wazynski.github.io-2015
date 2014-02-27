@@ -1,42 +1,41 @@
-/*
- * HTML5 Boilerplate
- *
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+/*==========================================================================================
+Site Name: Thomas Skarbek-Wazynski
+Author: Tom Skarbek-Wazynski
+
+Stylesheet: Main
+
+==========================================================================================*/
+
+/* ==========================================================================
+	Variables
+	========================================================================== */
+	
+	$base: black;
+	
+	$primary-font: "proxima-nova" ,"Helvetica Neue", Helvetica, Arial, sans-serif;
+	$secondary-font: "din-condensed-web", "proxima-nova" ,"Helvetica Neue", Helvetica, Arial, sans-serif;
+	
 
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
-
-
-
-
 
 	html,
 	button,
 	input,
 	select,
 	textarea {
-	    color: #222;
+	    color: $base;
 	}
-
+	
 	body {
-	    font-size: 18px;
+	    font-size: 16px;
 	    line-height: 1.4;
 		font-family: "proxima-nova", "helvetica", "arial",sans-serif;
-		background: #efebe3;
-//		background: white;
-		padding-top: 16px;
+		background: #ffffff;
+		padding: 0;
+		margin: 0;
 	}
-
-/*
-	 * Remove text-shadow in selection highlight: h5bp.com/i
-	 * These selection declarations have to be separate.
-	 * Customize the background color to match your design.
-	 */
 
 	::-moz-selection {
 	    background: #FD7D1F;
@@ -48,20 +47,18 @@
 	    text-shadow: none;
 	}
 
-/*
-	 * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
-	 */
-
 	img {
 	    vertical-align: middle;
 	}
+	
 	a {
-		color: #222;
+		color: $base;
 		text-decoration: none;
 	}
 	a:hover {
 		color: #FD7D1F;
 	}
+	
 	* {
 		-webkit-margin-before: 0;
 		-webkit-margin-after: 0;
@@ -81,179 +78,283 @@
 	    color: #000;
 	    padding: 0.2em 0;
 	}
-
+		
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-	.main {
-		padding: 2em 2em;
-
-	}
-	header {
-		
-		width: 380px;
-		margin: 0 auto;
-		
-		.title {
-			padding: 4px 0;
-			font-size: 2em;
-			text-transform: uppercase;
-			letter-spacing: 2px;
-			margin: 0;
-			font-weight: 600;
-			background: #222;
-			box-shadow: 12px 0 0 #222, -12px 0 0 #222;
-			color: white;	
-			display: inline;
-			line-height: 1.25;
-		}
-		.sub {
-			margin-top: 1em;
-			
-			h2 {
-			padding: 6px 0;
-			display: inline;
-			font-size: 16px;
-			font-family: "pt-sans", Georgia, serif;
-	//		margin: 0 0 4em 0;
-			font-weight: 400;
-			letter-spacing: 1px;
-			background: darken(#FD7D1F,15%);
-			box-shadow: 12px 0 0 darken(#FD7D1F, 15%), -12px 0 0 darken(#FD7D1F, 15%);
-			color: white;	
-			line-height: 1.5;	
-			}	
-		}
-		//.amp {
-//			font-family: "garamond-premier-pro-display", "freight-text-pro", Georgia, serif;
-//			font-weight: 400;
-//			font-style: italic;
-//		}
-		
+	Typography
+	========================================================================== */	
+	h2 {
+		font-size: 0.75em;
+		text-transform: uppercase;
+		margin: 1.333em 0;
 	}
 	p {
-		font-weight: 600;
-		text-transform: uppercase;
-		letter-spacing: 2px;
-		color: #222;
-		margin: 0.5em 0;
-	}
-	ul {
-		list-style: none;
-		padding: 0 1em;
-		margin: 0 0 1.4em 0;
-	}
-	li {
-		font-size: 13px;
-		font-family: "pt-sans", Georgia, serif;
-		letter-spacing: 1px;
-		font-weight: 400;
-		
-	}
-	
-	.layer {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-//		padding: 0 8px;
-	}
-	.layer-1 {
-		z-index: 5000;
-		position: fixed;
-	}
-	
-	.layer-2 {
-//		display: none;
-		z-index: 4000;
-		//-webkit-filter: blur(2px);
-//		-moz-filter: blur(2px);
-//		-ms-filter: blur(2px);
-//		-o-filter: blur(2px);
-//		filter: blur(2px);
-//		opacity: 0.5;
-	}
-	
-	.slide {
-//		background: lightblue;
-		width: 100%;
-		height: 100%;
-	}
-	
-	
-	
-	img {
-		width: 100%;
-		height: auto;
-		margin-bottom: 16px;
-		
+		font-size: 0.75em;
+		margin-bottom: 1.333em;
 	}
 
-	.image {
-		height: 350px;
-		width: 100%;
-		background: lightgreen;
-		background-size: cover;
-		margin-bottom: 16px;
-		overflow: hidden;
+/* ==========================================================================
+   Mobile Menu
+   ========================================================================== */
 		
-	}
-	.desc {
-		font-size: 13px;
-		font-family: "pt-sans", Georgia, serif;
-		letter-spacing: 1px;
-		font-weight: 400;
-		strong {
-			font-family: "proxima-nova", Georgia, serif;
-			
-			text-transform: uppercase;
+	.nav-collapse {
+		
+		.menu-btn {
+			padding: 1em;
 			display: block;
-			margin-bottom: 6px;
+			float: right;
+			overflow: hidden;
+			
+			span {
+					width: 30px;
+					height: 5px;
+					background: black;
+					margin-bottom: 5px;
+					display: block;
+			}
 		}
-		.dash {
+		
+		ul {
 			display: none;
-			font-family: helvetica;
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			
+			li {
+				padding: .5em 1em;
+				background: $base;
+				border-bottom: 1px solid white;
+				
+			    a {
+			   		color: white;
+			   	} 
+			}
+			
 		}
-		margin-bottom: 16px;
-	}
-	.row:nth-child(1) {
-		margin-top: 16px;
+		
 	}
 	
-	.row {
-//		margin-bottom: 16px;
+/* ==========================================================================
+   Header
+   ========================================================================== */
+	
+	.header {	
+		.intro {
+			margin: 1em;
+			padding-bottom: 1em;
+			border-bottom: 1px dotted $base;
+			
+			h1 {
+				font-size: 2em;
+				text-transform: uppercase;
+				line-height: 1;
+				clear: both;
+				margin: 0;
+				font-family: "din-condensed-web", "proxima-nova", "helvetica", "arial",sans-serif;
+				span {
+					display: block;
+				}
+			}
+			.byline {
+				font-size: 0.75em;
+				text-transform: uppercase;
+			}
+		}
+	} 
+	
+/* ==========================================================================
+   Main
+   ========================================================================== */
 		
-		.offset-top {
-			margin-top: 16px;
+	.main {
+		
+		margin: 1em;
+		
+		&.about {
+			.intro {	
+				font-size: 1.5em;
+				margin-bottom: 0.66666em;	
+			}	
+		}
+		
+	}
+	
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+	
+	.sidebar {
+		
+		.list {
+			margin: 1em;
+			ul {
+				font-size: 0.75em;
+				padding: 0;
+				list-style: none;
+				border-bottom: 1px dotted $base;
+				padding-bottom: 1.33333em;
+				
+				li {
+					line-height: 2;
+					a {
+						color: black;
+					}
+				}
+			}
+		}
+		
+		.copyright {
+			font-size: 0.75em;
+			font-weight: bold;
+			opacity: .5;
+			margin: 1em 0;
 		}
 	}
+	
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 
+/*
+	 * Clearfix: contain floats
+	 *
+	 * For modern browsers
+	 * 1. The space content is one way to avoid an Opera bug when the
+	 *    `contenteditable` attribute is included anywhere else in the document.
+	 *    Otherwise it causes space to appear at the top and bottom of elements
+	 *    that receive the `clearfix` class.
+	 * 2. The use of `table` rather than `block` is only necessary if using
+	 *    `:before` to contain the top-margins of child elements.
+	 */
 
+	.clearfix:before,
+	.clearfix:after {
+	    content: " "; /* 1 */
+	    display: table; /* 2 */
+	}
+
+	.clearfix:after {
+	    clear: both;
+	}
+
+	.clearfix {
+	    *zoom: 1;
+	}
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   Theses examples override the primary ('mobile first') styles.
-   Modify as content requires.
+	Tablets Vertical
    ========================================================================== */
 
-	@media only screen and (min-width: 35em) {
-	    /* Style adjustments for viewports that meet the condition */
+	@media only screen and (min-width: 768px) {		
+		
+		.nav-collapse {
+			display: none;
+		}
+		
+		.sidebar {
+			padding-top: 100px;
+			width: 27%;
+			max-width: 220px;
+			float: left;
+		}
+
+		.main {
+			
+			width: 63%;
+			max-width: 800px;
+			float: left;
+		
+			&.about {
+				.intro {	
+					margin-top: 200px;
+					font-size: 2em;
+					margin-bottom: 0.5em;	
+				}	
+			}
+		
+		}
+		
+		
 	}
+
+/* ==========================================================================
+	Retina
+   ========================================================================== */
 
 	@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	       only screen and (min--moz-device-pixel-ratio: 1.5),
+	       only screen and (min-device-pixel-ratio: 1.5),
 	       only screen and (min-resolution: 144dpi) {
-	    /* Style adjustments for high resolution devices */
+
 	}
 
 /* ==========================================================================
-   Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
+   Print style
    ========================================================================== */
 
-	// TODO Print style
+	@media print {
+	    * {
+	        background: transparent !important;
+	        color: #000 !important; /* Black prints faster: h5bp.com/s */
+	        box-shadow:none !important;
+	        text-shadow: none !important;
+	    }
+
+	    a,
+	    a:visited {
+	        text-decoration: underline;
+	    }
+
+	    a[href]:after {
+	        content: " (" attr(href) ")";
+	    }
+
+	    abbr[title]:after {
+	        content: " (" attr(title) ")";
+	    }
+
+	    /*
+	     * Don't show links for images, or javascript/internal links
+	     */
+
+	    .ir a:after,
+	    a[href^="javascript:"]:after,
+	    a[href^="#"]:after {
+	        content: "";
+	    }
+
+	    pre,
+	    blockquote {
+	        border: 1px solid #999;
+	        page-break-inside: avoid;
+	    }
+
+	    thead {
+	        display: table-header-group; /* h5bp.com/t */
+	    }
+
+	    tr,
+	    img {
+	        page-break-inside: avoid;
+	    }
+
+	    img {
+	        max-width: 100% !important;
+	    }
+
+	    @page {
+	        margin: 0.5cm;
+	    }
+
+	    p,
+	    h2,
+	    h3 {
+	        orphans: 3;
+	        widows: 3;
+	    }
+
+	    h2,
+	    h3 {
+	        page-break-after: avoid;
+	    }
+	}
