@@ -1,0 +1,113 @@
+/*==========================================================================================
+Site Name: Thomas Skarbek-Wazynski
+Author: Tom Skarbek-Wazynski
+
+Stylesheet: Main
+
+==========================================================================================*/
+/* ==========================================================================
+	Variables
+	========================================================================== */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+/* line 28, ../scss/porters-trading-limited.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: black;
+}
+
+/* line 32, ../scss/porters-trading-limited.scss */
+body {
+  background: #fdca58;
+  color: black;
+}
+
+/* line 37, ../scss/porters-trading-limited.scss */
+::-moz-selection {
+  background: #fd7d1f;
+}
+
+/* line 41, ../scss/porters-trading-limited.scss */
+::selection {
+  background: #fd7d1f;
+}
+
+/* line 45, ../scss/porters-trading-limited.scss */
+a {
+  color: black;
+}
+
+/* line 48, ../scss/porters-trading-limited.scss */
+a:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+/* ==========================================================================
+	Typography
+	========================================================================== */
+/* line 57, ../scss/porters-trading-limited.scss */
+.line {
+  background: black;
+}
+
+/* ==========================================================================
+   Mobile Menu
+   ========================================================================== */
+/* ==========================================================================
+   Header
+   ========================================================================== */
+/* ==========================================================================
+   Main
+   ========================================================================== */
+/* line 75, ../scss/porters-trading-limited.scss */
+.main {
+  /* ==========================================================================
+     Projects
+     ========================================================================== */
+}
+/* line 77, ../scss/porters-trading-limited.scss */
+.main .about {
+  border-top: 1px solid black;
+}
+
+/* ==========================================================================
+   Project
+   ========================================================================== */
+/* line 94, ../scss/porters-trading-limited.scss */
+.project-page .project {
+  margin-bottom: 2em;
+}
+/* line 98, ../scss/porters-trading-limited.scss */
+.project-page .project aside {
+  border-top: 1px solid black;
+}
+/* line 101, ../scss/porters-trading-limited.scss */
+.project-page .project section {
+  border-top: 1px solid black;
+}
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+/* line 111, ../scss/porters-trading-limited.scss */
+.list {
+  border-top: 1px solid black;
+}
+
+/* line 117, ../scss/porters-trading-limited.scss */
+.copyright {
+  border-top: 1px solid black;
+}
+
+/* ==========================================================================
+   Mobile Footer
+   ========================================================================== */
+/* line 125, ../scss/porters-trading-limited.scss */
+.mobile-footer {
+  border-top: 1px solid black;
+}

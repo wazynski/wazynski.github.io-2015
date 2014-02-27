@@ -11,10 +11,14 @@ Stylesheet: Main
 	========================================================================== */
 	
 	$base: black;
+	$background: white;
+	$border: lighten($base, 70%);
+	$selection: #FD7D1F;
 	
-	$primary-font: "proxima-nova" ,"Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+	$primary-font: "proxima-nova-alt" ,"Helvetica Neue", Helvetica, Arial, sans-serif;
 	$secondary-font: "din-condensed-web", "proxima-nova" ,"Helvetica Neue", Helvetica, Arial, sans-serif;
-	
+	$ampersand: "fanwood", "garamond-premier-pro-display", Baskerville, Palatino, "Book Antiqua", serif;
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -31,19 +35,20 @@ Stylesheet: Main
 	body {
 	    font-size: 16px;
 	    line-height: 1.4;
-		font-family: "proxima-nova", "helvetica", "arial",sans-serif;
-		background: #ffffff;
+		font-family: $primary-font;
+		background: $background;
 		padding: 0;
 		margin: 0;
+		color: $base;
 	}
 
 	::-moz-selection {
-	    background: #FD7D1F;
+	    background: $selection;
 	    text-shadow: none;
 	}
 
 	::selection {
-	    background: #FD7D1F;
+	    background: $selection;
 	    text-shadow: none;
 	}
 
@@ -56,7 +61,9 @@ Stylesheet: Main
 		text-decoration: none;
 	}
 	a:hover {
-		color: #FD7D1F;
+		color: $base;
+		text-decoration: none;
+		border-bottom: 1px solid $border;
 	}
 	
 	* {
@@ -78,18 +85,40 @@ Stylesheet: Main
 	    color: #000;
 	    padding: 0.2em 0;
 	}
+	
+	
+/* ==========================================================================
+	Container
+	========================================================================== */
+	
+	.container {
+		width: 100%;
+		margin: 0 auto;
+	}
 		
 /* ==========================================================================
 	Typography
-	========================================================================== */	
+	========================================================================== */
+		
 	h2 {
 		font-size: 0.75em;
 		text-transform: uppercase;
-		margin: 1.333em 0;
+		margin: 1.5em 0 .25em 0;
 	}
 	p {
 		font-size: 0.75em;
 		margin-bottom: 1.333em;
+	}
+	span.amp {
+		font-family: $ampersand;
+		font-style: italic;
+	}
+	
+	.line {
+		display: block;
+		height: 4px;
+		width: 20%;
+		background: $border;
 	}
 
 /* ==========================================================================
@@ -122,10 +151,10 @@ Stylesheet: Main
 			li {
 				padding: .5em 1em;
 				background: $base;
-				border-bottom: 1px solid white;
+				border-bottom: 1px solid $background;
 				
 			    a {
-			   		color: white;
+			   		color: $background;
 			   	} 
 			}
 			
@@ -140,8 +169,6 @@ Stylesheet: Main
 	.header {	
 		.intro {
 			margin: 1em;
-			padding-bottom: 1em;
-			border-bottom: 1px dotted $base;
 			
 			h1 {
 				font-size: 2em;
@@ -149,7 +176,7 @@ Stylesheet: Main
 				line-height: 1;
 				clear: both;
 				margin: 0;
-				font-family: "din-condensed-web", "proxima-nova", "helvetica", "arial",sans-serif;
+				font-family: $secondary-font;
 				span {
 					display: block;
 				}
@@ -169,48 +196,150 @@ Stylesheet: Main
 		
 		margin: 1em;
 		
-		&.about {
+		.about {
+			
+			border-top: 1px solid $border;
+			
+			
 			.intro {	
+				margin-top: 0.66666em;
+				font-weight: 300;
 				font-size: 1.5em;
-				margin-bottom: 0.66666em;	
+				margin-bottom: 0.66666em;
+				span.amp {
+					font-size: 0.875em;				
+				}	
 			}	
 		}
 		
+		/* ==========================================================================
+		   Projects
+		   ========================================================================== */
+		
+		.projects {
+			margin-top: 2em;
+			list-style: none;
+			overflow: hidden;
+			
+			.project {
+				
+				width: 48.5%;
+				float: left;
+				margin: 0 1.5% 3% 0;
+				&:nth-child(2n+2) {
+					margin: 0 0 3% 1.5%;
+				}
+				
+				img {
+					width: 100%;
+					height: auto;
+					opacity: 0.5;
+				}
+				.title {
+					display: block;
+					margin: .666666667em 0;
+					font-size: 0.75em;
+					font-weight: bold;
+				}
+				
+				&:hover {
+					img {
+						opacity: 1;
+					}
+				}
+				
+			}
+			
+		}		
 	}
+	
+/* ==========================================================================
+   Project
+   ========================================================================== */
+	
+	.project-page {
+		
+		.project {
+			
+			margin-bottom: 2em;
+			
+			header {
+				h1 {
+					font-weight: 300;
+					font-size: 1.5em;
+					//.year {
+//						padding-top: 1em;
+//						font-size: .5em;
+//						float: right;
+//						font-weight: bold;
+//					}
+					//padding-bottom: 0.33333em;
+				}
+			}
+			aside {
+				border-top: 1px solid $border;
+				margin-bottom: 1em;
+				
+				.link {
+					font-weight: bold;
+					font-size: 0.75em;
+					text-transform: uppercase;
+				}
+				
+				
+			}	
+			section {
+				border-top: 1px solid $border;
+				
+				.line {
+					margin-bottom: 1.25em;
+				}
+				
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}	
 	
 /* ==========================================================================
    Sidebar
    ========================================================================== */
 	
-	.sidebar {
+	.list {
+			
+		border-top: 1px solid $border;
+		margin: 1em;
 		
-		.list {
-			margin: 1em;
-			ul {
-				font-size: 0.75em;
-				padding: 0;
-				list-style: none;
-				border-bottom: 1px dotted $base;
-				padding-bottom: 1.33333em;
-				
-				li {
-					line-height: 2;
-					a {
-						color: black;
-					}
-				}
-			}
-		}
-		
-		.copyright {
+		ul {
 			font-size: 0.75em;
-			font-weight: bold;
-			opacity: .5;
-			margin: 1em 0;
+			padding: 0;
+			list-style: none;
+			padding-bottom: 1.33333em;
+			
+			li {
+				line-height: 2;
+			}
 		}
 	}
 	
+	.copyright {
+		border-top: 1px solid $border;
+		p {
+			margin: 1em 0;
+			font-size: 0.75em;
+		}
+	}
+	
+/* ==========================================================================
+   Mobile Footer
+   ========================================================================== */
+	
+	.mobile-footer {
+		border-top: 1px solid $border;	
+	}
 
+	
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -240,42 +369,112 @@ Stylesheet: Main
 	.clearfix {
 	    *zoom: 1;
 	}
+	
+	.tablet {
+		display: none;
+	}
 
 /* ==========================================================================
 	Tablets Vertical
    ========================================================================== */
 
 	@media only screen and (min-width: 768px) {		
+	
+		/* ==========================================================================
+			Helpers
+		   ========================================================================== */
 		
-		.nav-collapse {
+		.mobile-hide {
 			display: none;
 		}
-		
-		.sidebar {
-			padding-top: 100px;
-			width: 27%;
-			max-width: 220px;
-			float: left;
+		.tablet {
+			display: block;
 		}
-
-		.main {
-			
-			width: 63%;
-			max-width: 800px;
-			float: left;
 		
-			&.about {
+					.nav-collapse {
+						display: none;
+					}
+		
+		/* ==========================================================================
+			Header and Sidebar
+		  ========================================================================== */
+					
+		.header {
+			padding-top: 100px;
+		}
+		.wrapper {
+			position: fixed;
+			width: 219px;
+		}
+	
+		/* ==========================================================================
+			Main 
+		  ========================================================================== */
+		
+		.main {
+			width: 62%;
+			max-width: 660px;
+			margin-left: 219px;
+			padding-left: 2em;
+			padding-top: 250px;
+			/* ==========================================================================
+				About
+			  ========================================================================== */
+		
+			.about {
+				
+				
+				
 				.intro {	
-					margin-top: 200px;
+					margin: 0.5em 0;
 					font-size: 2em;
-					margin-bottom: 0.5em;	
 				}	
 			}
+			
 		
 		}
+		
+		/* ==========================================================================
+			Project 
+		  ========================================================================== */
+		
+		.project-page {
+		
+			.main {
+				padding-top: 184px;
+			}
+		
+			.project {
+				
+				margin-bottom: 8em;
+				
+				header {
+					h1 {
+						.year {
+							padding-top: 1em;
+							font-size: .5em;
+							float: right;
+							font-weight: bold;
+						}
+					}
+				}
+	
+			}
+		}	
 		
 		
 	}
+	
+/* ==========================================================================
+	Desktop
+   ========================================================================== */
+		
+	@media only screen and (min-width: 959px) {	
+		.container {
+			margin-left: 5%;
+		}	
+	}	
+	
 
 /* ==========================================================================
 	Retina
