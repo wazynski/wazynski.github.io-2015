@@ -11,50 +11,51 @@ Stylesheet: Main
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-/* line 28, ../scss/porters-trading-limited.scss */
+/* line 28, ../scss/the-commission.scss */
 html,
 button,
 input,
 select,
 textarea {
-  color: #252525;
+  color: #0094cb;
 }
 
-/* line 32, ../scss/porters-trading-limited.scss */
+/* line 32, ../scss/the-commission.scss */
 body {
-  background: #fdca58;
-  color: #252525;
+  background: white;
+  background: url("/img/projects/the-commission/background.jpg") repeat fixed;
+  color: #0094cb;
 }
 
-/* line 37, ../scss/porters-trading-limited.scss */
+/* line 38, ../scss/the-commission.scss */
 ::-moz-selection {
-  background: #626262;
+  background: #fd7d1f;
   color: white;
 }
 
-/* line 42, ../scss/porters-trading-limited.scss */
+/* line 43, ../scss/the-commission.scss */
 ::selection {
-  background: #626262;
+  background: #fd7d1f;
   color: white;
 }
 
-/* line 47, ../scss/porters-trading-limited.scss */
+/* line 48, ../scss/the-commission.scss */
 a {
-  color: #252525;
+  color: #0094cb;
 }
 
-/* line 50, ../scss/porters-trading-limited.scss */
+/* line 51, ../scss/the-commission.scss */
 a:hover {
-  color: #252525;
-  border-bottom: 1px solid #252525;
+  color: #0094cb;
+  border-bottom: 1px solid #0094cb;
 }
 
 /* ==========================================================================
 	Typography
 	========================================================================== */
-/* line 59, ../scss/porters-trading-limited.scss */
+/* line 60, ../scss/the-commission.scss */
 .line {
-  background: #252525;
+  background: #0094cb;
 }
 
 /* ==========================================================================
@@ -66,50 +67,50 @@ a:hover {
 /* ==========================================================================
    Main
    ========================================================================== */
-/* line 77, ../scss/porters-trading-limited.scss */
+/* line 78, ../scss/the-commission.scss */
 .main {
   /* ==========================================================================
      Projects
      ========================================================================== */
 }
-/* line 79, ../scss/porters-trading-limited.scss */
+/* line 80, ../scss/the-commission.scss */
 .main .about {
-  border-top: 1px solid #252525;
+  border-top: 1px solid #0094cb;
 }
 
 /* ==========================================================================
    Project
    ========================================================================== */
-/* line 96, ../scss/porters-trading-limited.scss */
+/* line 97, ../scss/the-commission.scss */
 .project-page .project {
   margin-bottom: 2em;
 }
-/* line 100, ../scss/porters-trading-limited.scss */
+/* line 101, ../scss/the-commission.scss */
 .project-page .project aside {
-  border-top: 1px solid #252525;
+  border-top: 1px solid #0094cb;
 }
-/* line 103, ../scss/porters-trading-limited.scss */
+/* line 104, ../scss/the-commission.scss */
 .project-page .project section {
-  border-top: 1px solid #252525;
+  border-top: 1px solid #0094cb;
 }
 
 /* ==========================================================================
    Sidebar
    ========================================================================== */
-/* line 113, ../scss/porters-trading-limited.scss */
+/* line 114, ../scss/the-commission.scss */
 .list {
-  border-top: 1px solid #252525;
+  border-top: 1px solid #0094cb;
 }
 
-/* line 119, ../scss/porters-trading-limited.scss */
+/* line 120, ../scss/the-commission.scss */
 .copyright {
-  border-top: 1px solid #252525;
+  border-top: 1px solid #0094cb;
 }
 
 /* ==========================================================================
    Mobile Footer
    ========================================================================== */
-/* line 127, ../scss/porters-trading-limited.scss */
+/* line 128, ../scss/the-commission.scss */
 .mobile-footer {
-  border-top: 1px solid #252525;
+  border-top: 1px solid #0094cb;
 }

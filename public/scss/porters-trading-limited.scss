@@ -10,10 +10,10 @@ Stylesheet: Main
 	Variables
 	========================================================================== */
 	
-	$base: #231f20;
+	$base: #252525;
 	$background: #fdca58;
 	$border: $base;
-	$selection: #FD7D1F;
+	$selection: #626262;
 	
 	
 
@@ -36,10 +36,12 @@ Stylesheet: Main
 
 	::-moz-selection {
 	    background: $selection;
+		color: white;
 	}
 
 	::selection {
 	    background: $selection;
+		color: white;
 	}
 
 	a {

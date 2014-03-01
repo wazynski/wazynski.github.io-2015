@@ -11,50 +11,50 @@ Stylesheet: Main
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-/* line 28, ../scss/porters-trading-limited.scss */
+/* line 28, ../scss/lusu copy.scss */
 html,
 button,
 input,
 select,
 textarea {
-  color: #252525;
+  color: #42186c;
 }
 
-/* line 32, ../scss/porters-trading-limited.scss */
+/* line 32, ../scss/lusu copy.scss */
 body {
-  background: #fdca58;
-  color: #252525;
+  background: white;
+  color: #42186c;
 }
 
-/* line 37, ../scss/porters-trading-limited.scss */
+/* line 37, ../scss/lusu copy.scss */
 ::-moz-selection {
-  background: #626262;
+  background: #fd7d1f;
   color: white;
 }
 
-/* line 42, ../scss/porters-trading-limited.scss */
+/* line 42, ../scss/lusu copy.scss */
 ::selection {
-  background: #626262;
+  background: #fd7d1f;
   color: white;
 }
 
-/* line 47, ../scss/porters-trading-limited.scss */
+/* line 47, ../scss/lusu copy.scss */
 a {
-  color: #252525;
+  color: #42186c;
 }
 
-/* line 50, ../scss/porters-trading-limited.scss */
+/* line 50, ../scss/lusu copy.scss */
 a:hover {
-  color: #252525;
-  border-bottom: 1px solid #252525;
+  color: #42186c;
+  border-bottom: 1px solid #42186c;
 }
 
 /* ==========================================================================
 	Typography
 	========================================================================== */
-/* line 59, ../scss/porters-trading-limited.scss */
+/* line 59, ../scss/lusu copy.scss */
 .line {
-  background: #252525;
+  background: #42186c;
 }
 
 /* ==========================================================================
@@ -66,50 +66,50 @@ a:hover {
 /* ==========================================================================
    Main
    ========================================================================== */
-/* line 77, ../scss/porters-trading-limited.scss */
+/* line 77, ../scss/lusu copy.scss */
 .main {
   /* ==========================================================================
      Projects
      ========================================================================== */
 }
-/* line 79, ../scss/porters-trading-limited.scss */
+/* line 79, ../scss/lusu copy.scss */
 .main .about {
-  border-top: 1px solid #252525;
+  border-top: 1px solid #42186c;
 }
 
 /* ==========================================================================
    Project
    ========================================================================== */
-/* line 96, ../scss/porters-trading-limited.scss */
+/* line 96, ../scss/lusu copy.scss */
 .project-page .project {
   margin-bottom: 2em;
 }
-/* line 100, ../scss/porters-trading-limited.scss */
+/* line 100, ../scss/lusu copy.scss */
 .project-page .project aside {
-  border-top: 1px solid #252525;
+  border-top: 1px solid #42186c;
 }
-/* line 103, ../scss/porters-trading-limited.scss */
+/* line 103, ../scss/lusu copy.scss */
 .project-page .project section {
-  border-top: 1px solid #252525;
+  border-top: 1px solid #42186c;
 }
 
 /* ==========================================================================
    Sidebar
    ========================================================================== */
-/* line 113, ../scss/porters-trading-limited.scss */
+/* line 113, ../scss/lusu copy.scss */
 .list {
-  border-top: 1px solid #252525;
+  border-top: 1px solid #42186c;
 }
 
-/* line 119, ../scss/porters-trading-limited.scss */
+/* line 119, ../scss/lusu copy.scss */
 .copyright {
-  border-top: 1px solid #252525;
+  border-top: 1px solid #42186c;
 }
 
 /* ==========================================================================
    Mobile Footer
    ========================================================================== */
-/* line 127, ../scss/porters-trading-limited.scss */
+/* line 127, ../scss/lusu copy.scss */
 .mobile-footer {
-  border-top: 1px solid #252525;
+  border-top: 1px solid #42186c;
 }

@@ -389,12 +389,6 @@ a:hover {
 /* ==========================================================================
 	Container
 	========================================================================== */
-/* line 94, ../scss/_main.scss */
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
-
 /* ==========================================================================
 	Typography
 	========================================================================== */
@@ -577,9 +571,10 @@ span.amp {
 .project-page .project section .line {
   margin-bottom: 1.25em;
 }
-/* line 298, ../scss/_main.scss */
+/* line 297, ../scss/_main.scss */
 .project-page .project section img {
   width: 100%;
+  background: none;
 }
 
 /* ==========================================================================
@@ -732,14 +727,29 @@ span.amp {
     float: right;
     font-weight: bold;
   }
+  /* line 461, ../scss/_main.scss */
+  .project-page .project section {
+    padding-bottom: 8em;
+  }
 }
 /* ==========================================================================
 	Desktop
    ========================================================================== */
 @media only screen and (min-width: 959px) {
-  /* line 473, ../scss/_main.scss */
+  /* line 477, ../scss/_main.scss */
   .container {
     margin-left: 5%;
+  }
+}
+@media only screen and (min-width: 1070px) {
+  /* line 485, ../scss/_main.scss */
+  .container {
+    margin-left: 5%;
+  }
+
+  /* line 488, ../scss/_main.scss */
+  .main {
+    margin-left: 260px;
   }
 }
 /* ==========================================================================
@@ -749,7 +759,7 @@ span.amp {
    Print style
    ========================================================================== */
 @media print {
-  /* line 495, ../scss/_main.scss */
+  /* line 511, ../scss/_main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -758,18 +768,18 @@ span.amp {
     text-shadow: none !important;
   }
 
-  /* line 503, ../scss/_main.scss */
+  /* line 519, ../scss/_main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 507, ../scss/_main.scss */
+  /* line 523, ../scss/_main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 511, ../scss/_main.scss */
+  /* line 527, ../scss/_main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -777,33 +787,33 @@ span.amp {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 521, ../scss/_main.scss */
+  /* line 537, ../scss/_main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 526, ../scss/_main.scss */
+  /* line 542, ../scss/_main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 531, ../scss/_main.scss */
+  /* line 547, ../scss/_main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 536, ../scss/_main.scss */
+  /* line 552, ../scss/_main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 540, ../scss/_main.scss */
+  /* line 556, ../scss/_main.scss */
   img {
     max-width: 100% !important;
   }
@@ -812,7 +822,7 @@ span.amp {
     margin: 0.5cm;
 }
 
-  /* line 550, ../scss/_main.scss */
+  /* line 566, ../scss/_main.scss */
   p,
   h2,
   h3 {
@@ -820,7 +830,7 @@ span.amp {
     widows: 3;
   }
 
-  /* line 556, ../scss/_main.scss */
+  /* line 572, ../scss/_main.scss */
   h2,
   h3 {
     page-break-after: avoid;

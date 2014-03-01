@@ -91,10 +91,10 @@ Stylesheet: Main
 	Container
 	========================================================================== */
 	
-	.container {
-		width: 100%;
-		margin: 0 auto;
-	}
+	//.container {
+//		width: 100%;
+//		margin: 0 auto;
+//	}
 		
 /* ==========================================================================
 	Typography
@@ -294,9 +294,9 @@ Stylesheet: Main
 				.line {
 					margin-bottom: 1.25em;
 				}
-				
 				img {
 					width: 100%;
+					background: none;
 				}
 			}
 		}
@@ -458,8 +458,12 @@ Stylesheet: Main
 						}
 					}
 				}
+				section {
+					padding-bottom: 8em;
+				}
 	
 			}
+
 		}	
 		
 		
@@ -472,7 +476,19 @@ Stylesheet: Main
 	@media only screen and (min-width: 959px) {	
 		.container {
 			margin-left: 5%;
-		}	
+		}
+			
+	}	
+	
+		
+	@media only screen and (min-width: 1070px) {	
+		.container {
+			margin-left: 5%;
+		}
+		.main {
+			margin-left: 260px;
+		}
+			
 	}	
 	
 
