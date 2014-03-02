@@ -5,111 +5,124 @@ Author: Tom Skarbek-Wazynski
 Stylesheet: Main
 
 ==========================================================================================*/
+
 /* ==========================================================================
 	Variables
 	========================================================================== */
+	
+	$base: darken(#8dc63f, 4%);
+	$background: white;
+	$border: $base;
+	$selection: #007a96;
+	
+	
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-/* line 28, ../scss/lusu copy.scss */
-html,
-button,
-input,
-select,
-textarea {
-  color: #42186c;
-}
 
-/* line 32, ../scss/lusu copy.scss */
-body {
-  background: white;
-  color: #42186c;
-}
+	html,
+	button,
+	input,
+	select,
+	textarea {
+	    color: $base;
+	}
+	
+	body {  
+		background: $background;
+		background: url('/img/projects/my-reptile-diet/background.jpg') repeat fixed;
+		color: $base;
+	}
 
-/* line 37, ../scss/lusu copy.scss */
-::-moz-selection {
-  background: #fd7d1f;
-  color: white;
-}
+	::-moz-selection {
+	    background: $selection;
+	}
 
-/* line 42, ../scss/lusu copy.scss */
-::selection {
-  background: #fd7d1f;
-  color: white;
-}
+	::selection {
+	    background: $selection;
+	}
 
-/* line 47, ../scss/lusu copy.scss */
-a {
-  color: #42186c;
-}
-
-/* line 50, ../scss/lusu copy.scss */
-a:hover {
-  color: #42186c;
-  border-bottom: 1px solid #42186c;
-}
-
+	a {
+		color: $base;
+	}
+	a:hover {
+		color: $base;
+		border-bottom: 1px solid $border;
+	}
+	
 /* ==========================================================================
 	Typography
 	========================================================================== */
-/* line 59, ../scss/lusu copy.scss */
-.line {
-  background: #42186c;
-}
+		
+	.line {
+		background: $border;
+	}
 
 /* ==========================================================================
    Mobile Menu
    ========================================================================== */
+		
+	
 /* ==========================================================================
    Header
    ========================================================================== */
+	
+	
 /* ==========================================================================
    Main
    ========================================================================== */
-/* line 77, ../scss/lusu copy.scss */
-.main {
-  /* ==========================================================================
-     Projects
-     ========================================================================== */
-}
-/* line 79, ../scss/lusu copy.scss */
-.main .about {
-  border-top: 1px solid #42186c;
-}
-
+		
+	.main {
+				
+		.about {
+			
+			border-top: 1px solid $border;
+	
+		}
+		
+		/* ==========================================================================
+		   Projects
+		   ========================================================================== */	
+	}
+	
 /* ==========================================================================
    Project
    ========================================================================== */
-/* line 96, ../scss/lusu copy.scss */
-.project-page .project {
-  margin-bottom: 2em;
-}
-/* line 100, ../scss/lusu copy.scss */
-.project-page .project aside {
-  border-top: 1px solid #42186c;
-}
-/* line 103, ../scss/lusu copy.scss */
-.project-page .project section {
-  border-top: 1px solid #42186c;
-}
-
+	
+	.project-page {
+		
+		.project {
+			
+			margin-bottom: 2em;
+			
+			aside {
+				border-top: 1px solid $border;
+			}	
+			section {
+				border-top: 1px solid $border;
+			}
+		}
+	}	
+	
 /* ==========================================================================
    Sidebar
    ========================================================================== */
-/* line 113, ../scss/lusu copy.scss */
-.list {
-  border-top: 1px solid #42186c;
-}
-
-/* line 119, ../scss/lusu copy.scss */
-.copyright {
-  border-top: 1px solid #42186c;
-}
-
+	
+	.list {
+			
+		border-top: 1px solid $border;
+		
+	}
+	
+	.copyright {
+		border-top: 1px solid $border;
+	}
+	
 /* ==========================================================================
    Mobile Footer
    ========================================================================== */
-/* line 127, ../scss/lusu copy.scss */
-.mobile-footer {
-  border-top: 1px solid #42186c;
-}
+	
+	.mobile-footer {
+		border-top: 1px solid $border;	
+	}
