@@ -226,14 +226,33 @@ Stylesheet: Main
 				width: 48.5%;
 				float: left;
 				margin: 0 1.5% 3% 0;
+				
 				&:nth-child(2n+2) {
 					margin: 0 0 3% 1.5%;
 				}
 				
-				img {
-					width: 100%;
-					height: auto;
-					opacity: 0.5;
+				.thumb {
+					position: relative;
+					overflow: hidden;
+				
+					img {
+						width: 100%;
+						height: auto;
+						-webkit-transition: 	top 0.3s ease-in 0s;
+						-moz-transition:	 	top 0.3s ease-in 0s;
+						-ms-transition: 		top 0.3s ease-in 0s;
+						-o-transition: 			top 0.3s ease-in 0s;
+						transition: 			top 0.3s ease-in 0s;
+					}
+					img.top {
+						position: absolute;
+						top: 0;
+					}
+					img.faded {
+						position: absolute;
+						top: -100%;
+					}
+				
 				}
 				.title {
 					display: block;
@@ -243,8 +262,11 @@ Stylesheet: Main
 				}
 				
 				&:hover {
-					img {
-						opacity: 1;
+					img.faded {
+						top: 0;
+					}
+					img.top {
+						top: 100%;
 					}
 				}
 				
