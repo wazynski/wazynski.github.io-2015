@@ -289,13 +289,9 @@ Stylesheet: Main
 				h1 {
 					font-weight: 300;
 					font-size: 1.5em;
-					//.year {
-//						padding-top: 1em;
-//						font-size: .5em;
-//						float: right;
-//						font-weight: bold;
-//					}
-					//padding-bottom: 0.33333em;
+					.year {
+						display: none
+					}
 				}
 			}
 			aside {
@@ -474,6 +470,7 @@ Stylesheet: Main
 				header {
 					h1 {
 						.year {
+							display: block;
 							padding-top: 1em;
 							font-size: .5em;
 							float: right;
