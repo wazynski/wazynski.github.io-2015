@@ -13,7 +13,7 @@ Stylesheet: Main
 	$base: #42186c;
 	$background: white;
 	$border: $base;
-	$selection: #FD7D1F;
+	$selection: #ffc00f;
 	
 	
 
@@ -36,12 +36,10 @@ Stylesheet: Main
 
 	::-moz-selection {
 	    background: $selection;
-		color: white;
 	}
 
 	::selection {
 	    background: $selection;
-		color: white;
 	}
 
 	a {
