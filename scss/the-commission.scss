@@ -11,7 +11,7 @@ Stylesheet: Main
 	========================================================================== */
 	
 	$base: darken(#00aeef, 7%);
-	$background: white;
+	$background: #dadada;
 	$border: $base;
 	$selection: #FD7D1F;
 	
@@ -31,7 +31,6 @@ Stylesheet: Main
 	
 	body {  
 		background: $background;
-		background: url('/img/projects/the-commission/background.jpg') repeat fixed;
 		color: $base;
 	}
 

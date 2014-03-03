@@ -11,7 +11,7 @@ Stylesheet: Main
 	========================================================================== */
 	
 	$base: darken(#8dc63f, 4%);
-	$background: white;
+	$background: #e9e8e3;
 	$border: $base;
 	$selection: #f55b55;
 	
@@ -31,7 +31,6 @@ Stylesheet: Main
 	
 	body {  
 		background: $background;
-		background: url('/img/projects/my-reptile-diet/background.jpg') repeat fixed;
 		color: $base;
 	}
 
