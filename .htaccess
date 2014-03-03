@@ -1,13 +1,13 @@
-# Apache configuration file
-# httpd.apache.org/docs/2.2/mod/quickreference.html
+# ----------------------------------------------------------------------
+# Remove current from url
+# ----------------------------------------------------------------------
 
-# Note .htaccess files are an overhead, this logic should be in your Apache
-# config if possible: httpd.apache.org/docs/2.2/howto/htaccess.html
-
-# Techniques in here adapted from all over, including:
-#   Kroc Camen: camendesign.com/.htaccess
-#   perishablepress.com/press/2006/01/10/stupid-htaccess-tricks/
-#   Sample .htaccess file of CMS MODx: modxcms.com
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+    RewriteEngine on
+    RewriteCond %{REQUEST_URI} !^/current/
+    RewriteRule ^(.*)$ /current/$1 [L]
+</IfModule>
 
 
 # ----------------------------------------------------------------------
@@ -26,7 +26,6 @@
   </FilesMatch>
 </IfModule>
 
-
 # ----------------------------------------------------------------------
 # Cross-domain AJAX requests
 # ----------------------------------------------------------------------
@@ -38,7 +37,6 @@
 #  <IfModule mod_headers.c>
 #    Header set Access-Control-Allow-Origin "*"
 #  </IfModule>
-
 
 # ----------------------------------------------------------------------
 # CORS-enabled images (@crossorigin)
@@ -74,7 +72,6 @@
     Header set Access-Control-Allow-Origin "*"
   </FilesMatch>
 </IfModule>
-
 
 # ----------------------------------------------------------------------
 # Proper MIME type for all files
@@ -123,32 +120,6 @@ AddType text/x-vcard                        vcf
 AddType application/x-shockwave-flash       swf
 AddType text/vtt                            vtt
 
-
-# ----------------------------------------------------------------------
-# Allow concatenation from within specific js and css files
-# ----------------------------------------------------------------------
-
-# e.g. Inside of script.combined.js you could have
-#   <!--#include file="libs/jquery-1.5.0.min.js" -->
-#   <!--#include file="plugins/jquery.idletimer.js" -->
-# and they would be included into this single file.
-
-# This is not in use in the boilerplate as it stands. You may
-# choose to use this technique if you do not have a build process.
-
-#<FilesMatch "\.combined\.js$">
-#  Options +Includes
-#  AddOutputFilterByType INCLUDES application/javascript application/json
-#  SetOutputFilter INCLUDES
-#</FilesMatch>
-
-#<FilesMatch "\.combined\.css$">
-#  Options +Includes
-#  AddOutputFilterByType INCLUDES text/css
-#  SetOutputFilter INCLUDES
-#</FilesMatch>
-
-
 # ----------------------------------------------------------------------
 # Gzip compression
 # ----------------------------------------------------------------------
@@ -184,7 +155,6 @@ AddType text/vtt                            vtt
   </IfModule>
 
 </IfModule>
-
 
 # ----------------------------------------------------------------------
 # Expires headers (for better cache control)
@@ -246,7 +216,6 @@ AddType text/vtt                            vtt
   ExpiresByType application/javascript    "access plus 1 year"
 
 </IfModule>
-
 
 # ----------------------------------------------------------------------
 # Prevent mobile network providers from modifying your site
@@ -329,12 +298,12 @@ FileETag None
 # comment it out and use `Options +SymLinksOfOwnerMatch`, but be aware of the
 # performance impact: http://goo.gl/Mluzd
 
-<IfModule mod_rewrite.c>
-  Options +FollowSymlinks
+#<IfModule mod_rewrite.c>
+#  Options +FollowSymlinks
 # Options +SymLinksIfOwnerMatch
-  RewriteEngine On
+#  RewriteEngine On
 # RewriteBase /
-</IfModule>
+# </IfModule>
 
 
 # ----------------------------------------------------------------------
@@ -428,6 +397,7 @@ Options -MultiViews
 # You can add custom pages to handle 500 or 403 pretty easily, if you like.
 # If you are hosting your site in subdirectory, adjust this accordingly
 #    e.g. ErrorDocument 404 /subdir/404.html
+
 ErrorDocument 404 /404.html
 
 
