@@ -177,6 +177,7 @@ Stylesheet: Main
 				clear: both;
 				margin: 0;
 				font-family: $secondary-font;
+				font-weight: normal;
 				span {
 					display: block;
 				}
@@ -220,6 +221,7 @@ Stylesheet: Main
 			margin-top: 2em;
 			list-style: none;
 			overflow: hidden;
+			padding: 0;
 			
 			.project {
 				
