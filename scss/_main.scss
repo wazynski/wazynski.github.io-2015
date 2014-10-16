@@ -210,6 +210,13 @@ Stylesheet: Main
 				span.amp {
 					font-size: 0.875em;				
 				}	
+				
+				a {
+					border-bottom: 1px solid $border;
+					&:hover {
+						border: none;
+					} 
+				}
 			}	
 		}
 		
