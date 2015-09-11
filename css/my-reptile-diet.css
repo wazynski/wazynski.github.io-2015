@@ -1,1 +1,81 @@
-html,button,input,select,textarea{color:#82ba37}body{background:#e9e8e3;color:#82ba37}::-moz-selection{background:#f55b55;color:white}::selection{background:#f55b55;color:white}a{color:#82ba37}a:hover{color:#82ba37;border-bottom:1px solid #82ba37}.line{background:#82ba37}.main .about{border-top:1px solid #82ba37}.project-page .project{margin-bottom:2em}.project-page .project aside{border-top:1px solid #82ba37}.project-page .project section{border-top:1px solid #82ba37}.list{border-top:1px solid #82ba37}.copyright{border-top:1px solid #82ba37}.mobile-footer{border-top:1px solid #82ba37}
+/*==========================================================================================
+Site Name: Thomas Skarbek-Wazynski
+Author: Tom Skarbek-Wazynski
+
+Stylesheet: Main
+
+==========================================================================================*/
+/* ==========================================================================
+	Variables
+	========================================================================== */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+  color: #82ba37; }
+
+body {
+  color: #82ba37;
+  background: #E9E8E3; }
+
+::selection {
+  color: #FFFFFF;
+  background: #F55B55; }
+
+a {
+  color: #82ba37; }
+
+a:hover {
+  color: #82ba37;
+  border-bottom: 1px solid #82ba37; }
+
+/* ==========================================================================
+	Typography
+	========================================================================== */
+.line {
+  background: #82ba37; }
+
+/* ==========================================================================
+   Mobile Menu
+   ========================================================================== */
+/* ==========================================================================
+   Header
+   ========================================================================== */
+/* ==========================================================================
+   Main
+   ========================================================================== */
+.main {
+  /* ==========================================================================
+		   Projects
+		   ========================================================================== */ }
+  .main .about {
+    border-top: 1px solid #82ba37; }
+
+/* ==========================================================================
+   Project
+   ========================================================================== */
+.project-page .project {
+  margin-bottom: 2em; }
+  .project-page .project aside {
+    border-top: 1px solid #82ba37; }
+  .project-page .project section {
+    border-top: 1px solid #82ba37; }
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+.list {
+  border-top: 1px solid #82ba37; }
+
+.copyright {
+  border-top: 1px solid #82ba37; }
+
+/* ==========================================================================
+   Mobile Footer
+   ========================================================================== */
+.mobile-footer {
+  border-top: 1px solid #82ba37; }

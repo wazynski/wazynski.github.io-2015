@@ -9,121 +9,112 @@ Stylesheet: Main
 /* ==========================================================================
 	Variables
 	========================================================================== */
-	
-	$base: darken(#00aeef, 7%);
-	$background: #dadada;
-	$border: $base;
-	$selection: #FD7D1F;
-	
-	
+$blue: #00AEEF;
+$base: darken($blue, 7%);
+$background: #DADADA;
+$border: $base;
+$white: #FFFFFF;
+$selection: #FD7D1F;
+
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
 
-	html,
-	button,
-	input,
-	select,
-	textarea {
-	    color: $base;
-	}
-	
-	body {  
-		background: $background;
-		color: $base;
-	}
+html,
+button,
+input,
+select,
+textarea {
+  color: $base;
+}
 
-	::-moz-selection {
-	    background: $selection;
-		color: white;
-	}
+body {
+  color: $base;
+  background: $background;
+}
 
-	::selection {
-	    background: $selection;
-		color: white;
-	}
+::selection {
+  color: $white;
+  background: $selection;
+}
 
-	a {
-		color: $base;
-	}
-	a:hover {
-		color: $base;
-		border-bottom: 1px solid $border;
-	}
-	
+a {
+  color: $base;
+}
+
+a:hover {
+  color: $base;
+  border-bottom: 1px solid $border;
+}
+
 /* ==========================================================================
 	Typography
 	========================================================================== */
-		
-	.line {
-		background: $border;
-	}
+
+.line {
+  background: $border;
+}
 
 /* ==========================================================================
    Mobile Menu
    ========================================================================== */
-		
-	
+
+
 /* ==========================================================================
    Header
    ========================================================================== */
-	
-	
+
+
 /* ==========================================================================
    Main
    ========================================================================== */
-		
-	.main {
-				
-		.about {
-			
-			border-top: 1px solid $border;
-	
-		}
-		
-		/* ==========================================================================
+
+.main {
+  .about {
+    border-top: 1px solid $border;
+  }
+
+  /* ==========================================================================
 		   Projects
-		   ========================================================================== */	
-	}
-	
+		   ========================================================================== */
+}
+
 /* ==========================================================================
    Project
    ========================================================================== */
-	
-	.project-page {
-		
-		.project {
-			
-			margin-bottom: 2em;
-			
-			aside {
-				border-top: 1px solid $border;
-			}	
-			section {
-				border-top: 1px solid $border;
-			}
-		}
-	}	
-	
+
+.project-page {
+  .project {
+    margin-bottom: 2em;
+
+    aside {
+      border-top: 1px solid $border;
+    }
+
+    section {
+      border-top: 1px solid $border;
+    }
+  }
+}
+
 /* ==========================================================================
    Sidebar
    ========================================================================== */
-	
-	.list {
-			
-		border-top: 1px solid $border;
-		
-	}
-	
-	.copyright {
-		border-top: 1px solid $border;
-	}
-	
+
+.list {
+  border-top: 1px solid $border;
+}
+
+.copyright {
+  border-top: 1px solid $border;
+}
+
 /* ==========================================================================
    Mobile Footer
    ========================================================================== */
-	
-	.mobile-footer {
-		border-top: 1px solid $border;	
-	}
+
+.mobile-footer {
+  border-top: 1px solid $border;
+}
