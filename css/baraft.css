@@ -1,1 +1,80 @@
-html,button,input,select,textarea{color:#ef4036}body{background:#fff;color:#ef4036}::-moz-selection{background:#007a96}::selection{background:#007a96}a{color:#ef4036}a:hover{color:#ef4036;border-bottom:1px solid #ef4036}.line{background:#ef4036}.main .about{border-top:1px solid #ef4036}.project-page .project{margin-bottom:2em}.project-page .project aside{border-top:1px solid #ef4036}.project-page .project section{border-top:1px solid #ef4036}.list{border-top:1px solid #ef4036}.copyright{border-top:1px solid #ef4036}.mobile-footer{border-top:1px solid #ef4036}
+/*==========================================================================================
+Site Name: Thomas Skarbek-Wazynski
+Author: Tom Skarbek-Wazynski
+
+Stylesheet: Main
+
+==========================================================================================*/
+/* ==========================================================================
+	Variables
+	========================================================================== */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+  color: #EF4036; }
+
+body {
+  color: #EF4036;
+  background: #FFFFFF; }
+
+::selection {
+  background: #007A96; }
+
+a {
+  color: #EF4036; }
+
+a:hover {
+  color: #EF4036;
+  border-bottom: 1px solid #EF4036; }
+
+/* ==========================================================================
+	Typography
+	========================================================================== */
+.line {
+  background: #EF4036; }
+
+/* ==========================================================================
+   Mobile Menu
+   ========================================================================== */
+/* ==========================================================================
+   Header
+   ========================================================================== */
+/* ==========================================================================
+   Main
+   ========================================================================== */
+.main {
+  /* ==========================================================================
+		   Projects
+		   ========================================================================== */ }
+  .main .about {
+    border-top: 1px solid #EF4036; }
+
+/* ==========================================================================
+   Project
+   ========================================================================== */
+.project-page .project {
+  margin-bottom: 2em; }
+  .project-page .project aside {
+    border-top: 1px solid #EF4036; }
+  .project-page .project section {
+    border-top: 1px solid #EF4036; }
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+.list {
+  border-top: 1px solid #EF4036; }
+
+.copyright {
+  border-top: 1px solid #EF4036; }
+
+/* ==========================================================================
+   Mobile Footer
+   ========================================================================== */
+.mobile-footer {
+  border-top: 1px solid #EF4036; }
